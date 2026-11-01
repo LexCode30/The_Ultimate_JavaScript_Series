@@ -1,0 +1,1192 @@
+{
+  "name": "The Ultimate JavaScript Series",
+  "slug": "The_Ultimate_JavaScript_Series",
+  "url": "https://LexCode30.github.io/The_Ultimate_JavaScript_Series/",
+  "category": "web-development",
+  "generator": "7.0",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Getting Started",
+      "page": "s1.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Welcome",
+          "id": "1Xl4oZmGhF2b-GZVCljJYtf5kWB6cJSxf",
+          "anchor": "v-1Xl4oZmGhF2b-GZVCljJYtf5kWB6cJSxf",
+          "href": "s1.html#v-1Xl4oZmGhF2b-GZVCljJYtf5kWB6cJSxf"
+        },
+        {
+          "number": 2,
+          "title": "2 - What is JavaScript",
+          "id": "1XjVLrUlzHT_9-xplK7le9az6FxL6nDdM",
+          "anchor": "v-1XjVLrUlzHT_9-xplK7le9az6FxL6nDdM",
+          "href": "s1.html#v-1XjVLrUlzHT_9-xplK7le9az6FxL6nDdM"
+        },
+        {
+          "number": 3,
+          "title": "3 - Setting Up the Development",
+          "id": "1XzOoUtj0ZJtuFw6b5DWRzNwuqQMUsEu6",
+          "anchor": "v-1XzOoUtj0ZJtuFw6b5DWRzNwuqQMUsEu6",
+          "href": "s1.html#v-1XzOoUtj0ZJtuFw6b5DWRzNwuqQMUsEu6"
+        },
+        {
+          "number": 4,
+          "title": "4 - JavaScript in Browsers",
+          "id": "1WrIfG_1uSqseMKRSMyfbpICTqsvpO30A",
+          "anchor": "v-1WrIfG_1uSqseMKRSMyfbpICTqsvpO30A",
+          "href": "s1.html#v-1WrIfG_1uSqseMKRSMyfbpICTqsvpO30A"
+        },
+        {
+          "number": 5,
+          "title": "5 - Separation of Concerns",
+          "id": "1X3bBNMaSerdv89pXaXNJwmyHWrxO53Q6",
+          "anchor": "v-1X3bBNMaSerdv89pXaXNJwmyHWrxO53Q6",
+          "href": "s1.html#v-1X3bBNMaSerdv89pXaXNJwmyHWrxO53Q6"
+        },
+        {
+          "number": 6,
+          "title": "6 - JavaScript in Node",
+          "id": "1XnRjZBuYIEgu1pc_m-M0meXntvbXV15R",
+          "anchor": "v-1XnRjZBuYIEgu1pc_m-M0meXntvbXV15R",
+          "href": "s1.html#v-1XnRjZBuYIEgu1pc_m-M0meXntvbXV15R"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Basics",
+      "page": "s2.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Variables",
+          "id": "1bqPVEwASjhJnnQpofvbdLkIZkuJCQMlI",
+          "anchor": "v-1bqPVEwASjhJnnQpofvbdLkIZkuJCQMlI",
+          "href": "s2.html#v-1bqPVEwASjhJnnQpofvbdLkIZkuJCQMlI"
+        },
+        {
+          "number": 2,
+          "title": "2 - Constants",
+          "id": "1aU5XC_hyNGNUVYY8xKGz8GB7HApE92CG",
+          "anchor": "v-1aU5XC_hyNGNUVYY8xKGz8GB7HApE92CG",
+          "href": "s2.html#v-1aU5XC_hyNGNUVYY8xKGz8GB7HApE92CG"
+        },
+        {
+          "number": 3,
+          "title": "3 - Primitive Types",
+          "id": "1bUtq5kbSItlMx2_gPw6d3OzoZPbkTOdn",
+          "anchor": "v-1bUtq5kbSItlMx2_gPw6d3OzoZPbkTOdn",
+          "href": "s2.html#v-1bUtq5kbSItlMx2_gPw6d3OzoZPbkTOdn"
+        },
+        {
+          "number": 4,
+          "title": "4 - Dynamic Typing",
+          "id": "1bA8Vgapa-tasv4fAWW4mAb7A8RScnVfH",
+          "anchor": "v-1bA8Vgapa-tasv4fAWW4mAb7A8RScnVfH",
+          "href": "s2.html#v-1bA8Vgapa-tasv4fAWW4mAb7A8RScnVfH"
+        },
+        {
+          "number": 5,
+          "title": "5 - Objects",
+          "id": "1bqePpEW7-c7g2vUHOWeX0iUJW7bMeybX",
+          "anchor": "v-1bqePpEW7-c7g2vUHOWeX0iUJW7bMeybX",
+          "href": "s2.html#v-1bqePpEW7-c7g2vUHOWeX0iUJW7bMeybX"
+        },
+        {
+          "number": 6,
+          "title": "Arrays",
+          "id": "1a2bDtA9Ezoq_QMiGFLI7lik_-CEkVb2o",
+          "anchor": "v-1a2bDtA9Ezoq_QMiGFLI7lik_-CEkVb2o",
+          "href": "s2.html#v-1a2bDtA9Ezoq_QMiGFLI7lik_-CEkVb2o"
+        },
+        {
+          "number": 7,
+          "title": "Functions",
+          "id": "1bUgRjN6guuyrJtbgUZsGPjllz1l2a2d1",
+          "anchor": "v-1bUgRjN6guuyrJtbgUZsGPjllz1l2a2d1",
+          "href": "s2.html#v-1bUgRjN6guuyrJtbgUZsGPjllz1l2a2d1"
+        },
+        {
+          "number": 8,
+          "title": "Types of Functions",
+          "id": "1bkFHKjKzMfxNk80Nx2nzjo-Y1XnqjROj",
+          "anchor": "v-1bkFHKjKzMfxNk80Nx2nzjo-Y1XnqjROj",
+          "href": "s2.html#v-1bkFHKjKzMfxNk80Nx2nzjo-Y1XnqjROj"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Operators",
+      "page": "s3.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - JavaScript Operators",
+          "id": "1g0pU2KWezjrJAA6ibDdYnWl96Uh2yh38",
+          "anchor": "v-1g0pU2KWezjrJAA6ibDdYnWl96Uh2yh38",
+          "href": "s3.html#v-1g0pU2KWezjrJAA6ibDdYnWl96Uh2yh38"
+        },
+        {
+          "number": 2,
+          "title": "Arithmetic Operators",
+          "id": "1fsayA51A5Q5L6lesZRxIW-zrlhAQjuLZ",
+          "anchor": "v-1fsayA51A5Q5L6lesZRxIW-zrlhAQjuLZ",
+          "href": "s3.html#v-1fsayA51A5Q5L6lesZRxIW-zrlhAQjuLZ"
+        },
+        {
+          "number": 3,
+          "title": "3 - Assignment Operators",
+          "id": "1gxm7LgBvQV9hcHFKKct1fNKibyk3nAr6",
+          "anchor": "v-1gxm7LgBvQV9hcHFKKct1fNKibyk3nAr6",
+          "href": "s3.html#v-1gxm7LgBvQV9hcHFKKct1fNKibyk3nAr6"
+        },
+        {
+          "number": 4,
+          "title": "4 - Comparison Operators",
+          "id": "1hezibELfn-6OvQKtNcKURSYNT28tccOb",
+          "anchor": "v-1hezibELfn-6OvQKtNcKURSYNT28tccOb",
+          "href": "s3.html#v-1hezibELfn-6OvQKtNcKURSYNT28tccOb"
+        },
+        {
+          "number": 5,
+          "title": "5 - Equality Operators",
+          "id": "1hB0WEm3HjFTAFhoMoeX5lkp45B7qjeqK",
+          "anchor": "v-1hB0WEm3HjFTAFhoMoeX5lkp45B7qjeqK",
+          "href": "s3.html#v-1hB0WEm3HjFTAFhoMoeX5lkp45B7qjeqK"
+        },
+        {
+          "number": 6,
+          "title": "6 - Ternary Operators",
+          "id": "1hf5aTO4bHke5t7DdAtkxJNRA4hG7ssyf",
+          "anchor": "v-1hf5aTO4bHke5t7DdAtkxJNRA4hG7ssyf",
+          "href": "s3.html#v-1hf5aTO4bHke5t7DdAtkxJNRA4hG7ssyf"
+        },
+        {
+          "number": 7,
+          "title": "7 - Logical Operators with Non-booleans",
+          "id": "1gfa7SMYPB3SY5dvt02Y2laEPPOv2h12p",
+          "anchor": "v-1gfa7SMYPB3SY5dvt02Y2laEPPOv2h12p",
+          "href": "s3.html#v-1gfa7SMYPB3SY5dvt02Y2laEPPOv2h12p"
+        },
+        {
+          "number": 8,
+          "title": "8 - Logical Operators with Non-Booleans",
+          "id": "1gzSRRfIN5SFmwPSrvF_pHc478PmQz3Dn",
+          "anchor": "v-1gzSRRfIN5SFmwPSrvF_pHc478PmQz3Dn",
+          "href": "s3.html#v-1gzSRRfIN5SFmwPSrvF_pHc478PmQz3Dn"
+        },
+        {
+          "number": 9,
+          "title": "BitWise Operators",
+          "id": "1h3m_0LJWA7sql7wDzTXmeEraeQmFwEun",
+          "anchor": "v-1h3m_0LJWA7sql7wDzTXmeEraeQmFwEun",
+          "href": "s3.html#v-1h3m_0LJWA7sql7wDzTXmeEraeQmFwEun"
+        },
+        {
+          "number": 10,
+          "title": "10 - Operator Precedence",
+          "id": "1helDBoqpqXnJ0JGawgqdTg5c3zSivVdL",
+          "anchor": "v-1helDBoqpqXnJ0JGawgqdTg5c3zSivVdL",
+          "href": "s3.html#v-1helDBoqpqXnJ0JGawgqdTg5c3zSivVdL"
+        },
+        {
+          "number": 11,
+          "title": "12 - Exercise - Swapping Variables",
+          "id": "1gO2j3Rd4rd7qFV2EaAUYK3By_TjMqanp",
+          "anchor": "v-1gO2j3Rd4rd7qFV2EaAUYK3By_TjMqanp",
+          "href": "s3.html#v-1gO2j3Rd4rd7qFV2EaAUYK3By_TjMqanp"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Control Flow",
+      "page": "s4.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - If...else",
+          "id": "1ibvzIVQZWuU_s5XlEfxESvVrr-skRnVg",
+          "anchor": "v-1ibvzIVQZWuU_s5XlEfxESvVrr-skRnVg",
+          "href": "s4.html#v-1ibvzIVQZWuU_s5XlEfxESvVrr-skRnVg"
+        },
+        {
+          "number": 2,
+          "title": "2 - Switch...case",
+          "id": "1hmsJhZ8b0KpyJ1LrjHzBIqLqLJlT4-7g",
+          "anchor": "v-1hmsJhZ8b0KpyJ1LrjHzBIqLqLJlT4-7g",
+          "href": "s4.html#v-1hmsJhZ8b0KpyJ1LrjHzBIqLqLJlT4-7g"
+        },
+        {
+          "number": 3,
+          "title": "3 - For",
+          "id": "1kIt7_1FjW2SWQeBE8LCalKS_0EaXbQlx",
+          "anchor": "v-1kIt7_1FjW2SWQeBE8LCalKS_0EaXbQlx",
+          "href": "s4.html#v-1kIt7_1FjW2SWQeBE8LCalKS_0EaXbQlx"
+        },
+        {
+          "number": 4,
+          "title": "4 - While",
+          "id": "1ib68UKz5BsDvXaPwx8cHYXP-id382QXW",
+          "anchor": "v-1ib68UKz5BsDvXaPwx8cHYXP-id382QXW",
+          "href": "s4.html#v-1ib68UKz5BsDvXaPwx8cHYXP-id382QXW"
+        },
+        {
+          "number": 5,
+          "title": "5 - Do...While",
+          "id": "1jGuxv5NAfU_qxSHAdZcT4q293uu1euEq",
+          "anchor": "v-1jGuxv5NAfU_qxSHAdZcT4q293uu1euEq",
+          "href": "s4.html#v-1jGuxv5NAfU_qxSHAdZcT4q293uu1euEq"
+        },
+        {
+          "number": 6,
+          "title": "6 - Infinite Loops",
+          "id": "1j9maqqzmMLMUsJePLDIxgsW09Zuh-eux",
+          "anchor": "v-1j9maqqzmMLMUsJePLDIxgsW09Zuh-eux",
+          "href": "s4.html#v-1j9maqqzmMLMUsJePLDIxgsW09Zuh-eux"
+        },
+        {
+          "number": 7,
+          "title": "7 - For...In",
+          "id": "1kImnQJLDvUTT-KABvuI94qHZ4rLH7zm0",
+          "anchor": "v-1kImnQJLDvUTT-KABvuI94qHZ4rLH7zm0",
+          "href": "s4.html#v-1kImnQJLDvUTT-KABvuI94qHZ4rLH7zm0"
+        },
+        {
+          "number": 8,
+          "title": "8 - For...of",
+          "id": "1iVGVPF2UuP4lc6fnGPYPejHoYdYrNG5f",
+          "anchor": "v-1iVGVPF2UuP4lc6fnGPYPejHoYdYrNG5f",
+          "href": "s4.html#v-1iVGVPF2UuP4lc6fnGPYPejHoYdYrNG5f"
+        },
+        {
+          "number": 9,
+          "title": "10 - Max of Two Numbers",
+          "id": "1kKI-To8S_JAKLY3Lh3buBxZi0vkMv4E_",
+          "anchor": "v-1kKI-To8S_JAKLY3Lh3buBxZi0vkMv4E_",
+          "href": "s4.html#v-1kKI-To8S_JAKLY3Lh3buBxZi0vkMv4E_"
+        },
+        {
+          "number": 10,
+          "title": "12 - Exercise - FizzBuzz",
+          "id": "1ht8-SUcvfPodbAiNP0TtrSmxwTYTeWlg",
+          "anchor": "v-1ht8-SUcvfPodbAiNP0TtrSmxwTYTeWlg",
+          "href": "s4.html#v-1ht8-SUcvfPodbAiNP0TtrSmxwTYTeWlg"
+        },
+        {
+          "number": 11,
+          "title": "13 - Exercise - Demerit Points",
+          "id": "1hknHcjExGcpDzeOpO9WklIjjnPDT9DDU",
+          "anchor": "v-1hknHcjExGcpDzeOpO9WklIjjnPDT9DDU",
+          "href": "s4.html#v-1hknHcjExGcpDzeOpO9WklIjjnPDT9DDU"
+        },
+        {
+          "number": 12,
+          "title": "14 - Exercise - Even and Odd Numbers",
+          "id": "1khIiSEhgFl9LPZ-fQimVZpLRmS_XVnqX",
+          "anchor": "v-1khIiSEhgFl9LPZ-fQimVZpLRmS_XVnqX",
+          "href": "s4.html#v-1khIiSEhgFl9LPZ-fQimVZpLRmS_XVnqX"
+        },
+        {
+          "number": 13,
+          "title": "16 - Exercise - String Properties",
+          "id": "1kiTPZqkhzoqWcwn9nHLd3zS2AuCSa9_1",
+          "anchor": "v-1kiTPZqkhzoqWcwn9nHLd3zS2AuCSa9_1",
+          "href": "s4.html#v-1kiTPZqkhzoqWcwn9nHLd3zS2AuCSa9_1"
+        },
+        {
+          "number": 14,
+          "title": "17 - Exercise - Sum of Multiples 3 and 5",
+          "id": "1j7M7fQLnYAgXRbFSSeyurP-fhz3e80K9",
+          "anchor": "v-1j7M7fQLnYAgXRbFSSeyurP-fhz3e80K9",
+          "href": "s4.html#v-1j7M7fQLnYAgXRbFSSeyurP-fhz3e80K9"
+        },
+        {
+          "number": 15,
+          "title": "18 - Exercise - Grade",
+          "id": "1jL1aC455TEFyS2XEPz5hcZ4P2SuLTBD2",
+          "anchor": "v-1jL1aC455TEFyS2XEPz5hcZ4P2SuLTBD2",
+          "href": "s4.html#v-1jL1aC455TEFyS2XEPz5hcZ4P2SuLTBD2"
+        },
+        {
+          "number": 16,
+          "title": "19 - Exercise - Stars",
+          "id": "1iaMOHQtKJrhvvEiqh6M92GRtFu5p49PZ",
+          "anchor": "v-1iaMOHQtKJrhvvEiqh6M92GRtFu5p49PZ",
+          "href": "s4.html#v-1iaMOHQtKJrhvvEiqh6M92GRtFu5p49PZ"
+        },
+        {
+          "number": 17,
+          "title": "20 - Exercise - Prime Numbers",
+          "id": "1jMBzxEVUr2ArDXf3qezmsAtMbl3ZTSbi",
+          "anchor": "v-1jMBzxEVUr2ArDXf3qezmsAtMbl3ZTSbi",
+          "href": "s4.html#v-1jMBzxEVUr2ArDXf3qezmsAtMbl3ZTSbi"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Objects",
+      "page": "s5.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Basics",
+          "id": "1_PV6YOqCKvgsuikF1VwLANrMnaVCSTbz",
+          "anchor": "v-1_PV6YOqCKvgsuikF1VwLANrMnaVCSTbz",
+          "href": "s5.html#v-1_PV6YOqCKvgsuikF1VwLANrMnaVCSTbz"
+        },
+        {
+          "number": 2,
+          "title": "2 - Factory Functions",
+          "id": "1ZBj6KV9aK4sdFzAecphUlqs_jqGlBvaP",
+          "anchor": "v-1ZBj6KV9aK4sdFzAecphUlqs_jqGlBvaP",
+          "href": "s5.html#v-1ZBj6KV9aK4sdFzAecphUlqs_jqGlBvaP"
+        },
+        {
+          "number": 3,
+          "title": "3 - Constructor Functions",
+          "id": "1_c7paoHOtcwvwH4Qj2ZWIqsOomScT9-c",
+          "anchor": "v-1_c7paoHOtcwvwH4Qj2ZWIqsOomScT9-c",
+          "href": "s5.html#v-1_c7paoHOtcwvwH4Qj2ZWIqsOomScT9-c"
+        },
+        {
+          "number": 4,
+          "title": "4 - Dynamic Nature of Objects",
+          "id": "1_-ZzSR-m5ZvR-hOU_Wd7JQDy6WUTl1eM",
+          "anchor": "v-1_-ZzSR-m5ZvR-hOU_Wd7JQDy6WUTl1eM",
+          "href": "s5.html#v-1_-ZzSR-m5ZvR-hOU_Wd7JQDy6WUTl1eM"
+        },
+        {
+          "number": 5,
+          "title": "5 - Constructor Property",
+          "id": "1_TD-jqKtBmmJfWfG_y1DpgSfXh_zx1xJ",
+          "anchor": "v-1_TD-jqKtBmmJfWfG_y1DpgSfXh_zx1xJ",
+          "href": "s5.html#v-1_TD-jqKtBmmJfWfG_y1DpgSfXh_zx1xJ"
+        },
+        {
+          "number": 6,
+          "title": "6 - Functions are Objects",
+          "id": "1_UKKMQC0wMw_X6MRRXwOBVcQerzLhXdX",
+          "anchor": "v-1_UKKMQC0wMw_X6MRRXwOBVcQerzLhXdX",
+          "href": "s5.html#v-1_UKKMQC0wMw_X6MRRXwOBVcQerzLhXdX"
+        },
+        {
+          "number": 7,
+          "title": "7 - Value vs. Reference Types",
+          "id": "1YsKGDe6lioNDiWN6BbJWrkotqBuP3YVD",
+          "anchor": "v-1YsKGDe6lioNDiWN6BbJWrkotqBuP3YVD",
+          "href": "s5.html#v-1YsKGDe6lioNDiWN6BbJWrkotqBuP3YVD"
+        },
+        {
+          "number": 8,
+          "title": "8 - Enumerating Properties of an Object",
+          "id": "1_htxNVxw9jqRucvfCt_OurBoWFL4mk6H",
+          "anchor": "v-1_htxNVxw9jqRucvfCt_OurBoWFL4mk6H",
+          "href": "s5.html#v-1_htxNVxw9jqRucvfCt_OurBoWFL4mk6H"
+        },
+        {
+          "number": 9,
+          "title": "9 - Cloning an Object",
+          "id": "1_azJzrJHIL_hidpgELUcBiv-YLkzVtsk",
+          "anchor": "v-1_azJzrJHIL_hidpgELUcBiv-YLkzVtsk",
+          "href": "s5.html#v-1_azJzrJHIL_hidpgELUcBiv-YLkzVtsk"
+        },
+        {
+          "number": 10,
+          "title": "10 - Garbage Collection",
+          "id": "1_Gn3oxqWw15qeiPmCB_0Dd08E0llQMyX",
+          "anchor": "v-1_Gn3oxqWw15qeiPmCB_0Dd08E0llQMyX",
+          "href": "s5.html#v-1_Gn3oxqWw15qeiPmCB_0Dd08E0llQMyX"
+        },
+        {
+          "number": 11,
+          "title": "11 - Math",
+          "id": "1_IDF9hgjc0pSWSUZPythaL0dFMSk4g7t",
+          "anchor": "v-1_IDF9hgjc0pSWSUZPythaL0dFMSk4g7t",
+          "href": "s5.html#v-1_IDF9hgjc0pSWSUZPythaL0dFMSk4g7t"
+        },
+        {
+          "number": 12,
+          "title": "12 - String",
+          "id": "1ZXVxfg0tQdPFHx37dBvq17p0X19-RFan",
+          "anchor": "v-1ZXVxfg0tQdPFHx37dBvq17p0X19-RFan",
+          "href": "s5.html#v-1ZXVxfg0tQdPFHx37dBvq17p0X19-RFan"
+        },
+        {
+          "number": 13,
+          "title": "13 - Template Literals",
+          "id": "1_YKK6Th4yM3cRp1mgU-K8fRUzAK6WIu3",
+          "anchor": "v-1_YKK6Th4yM3cRp1mgU-K8fRUzAK6WIu3",
+          "href": "s5.html#v-1_YKK6Th4yM3cRp1mgU-K8fRUzAK6WIu3"
+        },
+        {
+          "number": 14,
+          "title": "14 - Date",
+          "id": "1YuvIPGNRnqi4ENaqH-OeBZQRb021cOu_",
+          "anchor": "v-1YuvIPGNRnqi4ENaqH-OeBZQRb021cOu_",
+          "href": "s5.html#v-1YuvIPGNRnqi4ENaqH-OeBZQRb021cOu_"
+        },
+        {
+          "number": 15,
+          "title": "15 - Exercise 1 - Address Object",
+          "id": "1Z9z5E3YFMy8tyKBJlfo3htWiuFe8S0LK",
+          "anchor": "v-1Z9z5E3YFMy8tyKBJlfo3htWiuFe8S0LK",
+          "href": "s5.html#v-1Z9z5E3YFMy8tyKBJlfo3htWiuFe8S0LK"
+        },
+        {
+          "number": 16,
+          "title": "16 - Exercise - Factory and Constructor Function",
+          "id": "1ZUpqWUJljcrjCP9x1rpZnGFwSHuc3Ggz",
+          "anchor": "v-1ZUpqWUJljcrjCP9x1rpZnGFwSHuc3Ggz",
+          "href": "s5.html#v-1ZUpqWUJljcrjCP9x1rpZnGFwSHuc3Ggz"
+        },
+        {
+          "number": 17,
+          "title": "17 - Exercise 3 - Object Equality",
+          "id": "1_Ld67EzFHd38xY4j_lZmXJi8UQeey92J",
+          "anchor": "v-1_Ld67EzFHd38xY4j_lZmXJi8UQeey92J",
+          "href": "s5.html#v-1_Ld67EzFHd38xY4j_lZmXJi8UQeey92J"
+        },
+        {
+          "number": 18,
+          "title": "18 - Exercise 4 - Blog Post Object",
+          "id": "1YnuT2GhppG5A6tDCrmyoBCdk84ufbTC7",
+          "anchor": "v-1YnuT2GhppG5A6tDCrmyoBCdk84ufbTC7",
+          "href": "s5.html#v-1YnuT2GhppG5A6tDCrmyoBCdk84ufbTC7"
+        },
+        {
+          "number": 19,
+          "title": "19 - Exercise 5 - Constructor Functions",
+          "id": "1ZD2DWaTs_QHppfI9lZxaaQbIn6Xbq9fX",
+          "anchor": "v-1ZD2DWaTs_QHppfI9lZxaaQbIn6Xbq9fX",
+          "href": "s5.html#v-1ZD2DWaTs_QHppfI9lZxaaQbIn6Xbq9fX"
+        },
+        {
+          "number": 20,
+          "title": "20 - Exercise 6 - Price Range Objects",
+          "id": "1ZT_yturvfKrVu0jcRXF2YXRWHR897uvi",
+          "anchor": "v-1ZT_yturvfKrVu0jcRXF2YXRWHR897uvi",
+          "href": "s5.html#v-1ZT_yturvfKrVu0jcRXF2YXRWHR897uvi"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Arrays",
+      "page": "s6.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Introduction",
+          "id": "1eSSesFN5S4EGovAVJzuYC2H1axa1SC7R",
+          "anchor": "v-1eSSesFN5S4EGovAVJzuYC2H1axa1SC7R",
+          "href": "s6.html#v-1eSSesFN5S4EGovAVJzuYC2H1axa1SC7R"
+        },
+        {
+          "number": 2,
+          "title": "2 - Adding Elements",
+          "id": "1c_VdEnBkxyO0xqG8kHvcojp62FFpAqh4",
+          "anchor": "v-1c_VdEnBkxyO0xqG8kHvcojp62FFpAqh4",
+          "href": "s6.html#v-1c_VdEnBkxyO0xqG8kHvcojp62FFpAqh4"
+        },
+        {
+          "number": 3,
+          "title": "3 - Finding Elements Primitives",
+          "id": "1dmnN0O89pPzbOdCZgq60-mjx0bsBDdmy",
+          "anchor": "v-1dmnN0O89pPzbOdCZgq60-mjx0bsBDdmy",
+          "href": "s6.html#v-1dmnN0O89pPzbOdCZgq60-mjx0bsBDdmy"
+        },
+        {
+          "number": 4,
+          "title": "4 - Finding Elements Reference Types",
+          "id": "1egTafP0saUsc6B_WngcPIEB28WV9QAjI",
+          "anchor": "v-1egTafP0saUsc6B_WngcPIEB28WV9QAjI",
+          "href": "s6.html#v-1egTafP0saUsc6B_WngcPIEB28WV9QAjI"
+        },
+        {
+          "number": 5,
+          "title": "5 - Arrow Functions",
+          "id": "1dL72Twg0wwbsu1iNFP19jSjmj1nTT08q",
+          "anchor": "v-1dL72Twg0wwbsu1iNFP19jSjmj1nTT08q",
+          "href": "s6.html#v-1dL72Twg0wwbsu1iNFP19jSjmj1nTT08q"
+        },
+        {
+          "number": 6,
+          "title": "6 - Removing Elements",
+          "id": "1djDT-qFCVB48G3_VA2i-tPAsmJmVd7SB",
+          "anchor": "v-1djDT-qFCVB48G3_VA2i-tPAsmJmVd7SB",
+          "href": "s6.html#v-1djDT-qFCVB48G3_VA2i-tPAsmJmVd7SB"
+        },
+        {
+          "number": 7,
+          "title": "7 - Emptying an Array",
+          "id": "1ek777wxP2P_UgN6C4r3692MhL0BOYW-d",
+          "anchor": "v-1ek777wxP2P_UgN6C4r3692MhL0BOYW-d",
+          "href": "s6.html#v-1ek777wxP2P_UgN6C4r3692MhL0BOYW-d"
+        },
+        {
+          "number": 8,
+          "title": "8 - Combining and Slicing Arrays",
+          "id": "1dl6M6WGFlE0RZM-MJjshp8PKeKnrsnnn",
+          "anchor": "v-1dl6M6WGFlE0RZM-MJjshp8PKeKnrsnnn",
+          "href": "s6.html#v-1dl6M6WGFlE0RZM-MJjshp8PKeKnrsnnn"
+        },
+        {
+          "number": 9,
+          "title": "9 - The Spread Operator",
+          "id": "1cfNGSZDd8hQq1Yo3W6fxE4lYMdyVqu3W",
+          "anchor": "v-1cfNGSZDd8hQq1Yo3W6fxE4lYMdyVqu3W",
+          "href": "s6.html#v-1cfNGSZDd8hQq1Yo3W6fxE4lYMdyVqu3W"
+        },
+        {
+          "number": 10,
+          "title": "10 - Iterating an Array",
+          "id": "1c40CVZyF3zceZntHBLlTotWMnGQJOKgG",
+          "anchor": "v-1c40CVZyF3zceZntHBLlTotWMnGQJOKgG",
+          "href": "s6.html#v-1c40CVZyF3zceZntHBLlTotWMnGQJOKgG"
+        },
+        {
+          "number": 11,
+          "title": "11 - Joining Arrays",
+          "id": "1dTTOIJ5OijbKQ-8eWujAetIxtZ3h6C9R",
+          "anchor": "v-1dTTOIJ5OijbKQ-8eWujAetIxtZ3h6C9R",
+          "href": "s6.html#v-1dTTOIJ5OijbKQ-8eWujAetIxtZ3h6C9R"
+        },
+        {
+          "number": 12,
+          "title": "12 - Sorting Arrays",
+          "id": "1clrRCDijFCWk5G_YzX9zg0UBuLyMkT3r",
+          "anchor": "v-1clrRCDijFCWk5G_YzX9zg0UBuLyMkT3r",
+          "href": "s6.html#v-1clrRCDijFCWk5G_YzX9zg0UBuLyMkT3r"
+        },
+        {
+          "number": 13,
+          "title": "13 - Testing the Elements of an Array",
+          "id": "1fFK_eYtnc5hS_9OhGL3JpV2GX-Sdky0h",
+          "anchor": "v-1fFK_eYtnc5hS_9OhGL3JpV2GX-Sdky0h",
+          "href": "s6.html#v-1fFK_eYtnc5hS_9OhGL3JpV2GX-Sdky0h"
+        },
+        {
+          "number": 14,
+          "title": "14 - Filtering an Array",
+          "id": "1f0HT6YfSd0IPkDu24pinvyRc9UJm4-zV",
+          "anchor": "v-1f0HT6YfSd0IPkDu24pinvyRc9UJm4-zV",
+          "href": "s6.html#v-1f0HT6YfSd0IPkDu24pinvyRc9UJm4-zV"
+        },
+        {
+          "number": 15,
+          "title": "15 - Mapping an Array",
+          "id": "1fHXQUffEsPLzlCtJHL-n6FY6zXjCyqSI",
+          "anchor": "v-1fHXQUffEsPLzlCtJHL-n6FY6zXjCyqSI",
+          "href": "s6.html#v-1fHXQUffEsPLzlCtJHL-n6FY6zXjCyqSI"
+        },
+        {
+          "number": 16,
+          "title": "16 - Reducing an Array",
+          "id": "1dSAyE9MTzttmR1xMc-LPXTdTC1KFInBD",
+          "anchor": "v-1dSAyE9MTzttmR1xMc-LPXTdTC1KFInBD",
+          "href": "s6.html#v-1dSAyE9MTzttmR1xMc-LPXTdTC1KFInBD"
+        },
+        {
+          "number": 17,
+          "title": "17 - Exercise 1 - Array from Range",
+          "id": "1dX3AnU59PA6UFfXjtkDyNJarDvrrr7Kx",
+          "anchor": "v-1dX3AnU59PA6UFfXjtkDyNJarDvrrr7Kx",
+          "href": "s6.html#v-1dX3AnU59PA6UFfXjtkDyNJarDvrrr7Kx"
+        },
+        {
+          "number": 18,
+          "title": "18 - Exercise 2 - Includes",
+          "id": "1e5hgxrH4I6RzFDuS_3n9lNQytt6FrHBw",
+          "anchor": "v-1e5hgxrH4I6RzFDuS_3n9lNQytt6FrHBw",
+          "href": "s6.html#v-1e5hgxrH4I6RzFDuS_3n9lNQytt6FrHBw"
+        },
+        {
+          "number": 19,
+          "title": "19 - Exercise 3 - Except",
+          "id": "1cfe2xPXSZWSyXOJcUOXyfSxoZz8FZwEm",
+          "anchor": "v-1cfe2xPXSZWSyXOJcUOXyfSxoZz8FZwEm",
+          "href": "s6.html#v-1cfe2xPXSZWSyXOJcUOXyfSxoZz8FZwEm"
+        },
+        {
+          "number": 20,
+          "title": "20 - Exercise 4 - Moving an Element",
+          "id": "1crQqA1u5-cLNy_inIxmfvRGp30wIpGdc",
+          "anchor": "v-1crQqA1u5-cLNy_inIxmfvRGp30wIpGdc",
+          "href": "s6.html#v-1crQqA1u5-cLNy_inIxmfvRGp30wIpGdc"
+        },
+        {
+          "number": 21,
+          "title": "21 - Exercise 5 - Count Occurrences",
+          "id": "1cl2BL2BgEX2sgdiOTyGBpoKjffhs9NJ9",
+          "anchor": "v-1cl2BL2BgEX2sgdiOTyGBpoKjffhs9NJ9",
+          "href": "s6.html#v-1cl2BL2BgEX2sgdiOTyGBpoKjffhs9NJ9"
+        },
+        {
+          "number": 22,
+          "title": "22 - Exercise 6 - Get Max",
+          "id": "1cZGZkSnpzl9l6aLk1Nc1KqSk6Dfu9qCx",
+          "anchor": "v-1cZGZkSnpzl9l6aLk1Nc1KqSk6Dfu9qCx",
+          "href": "s6.html#v-1cZGZkSnpzl9l6aLk1Nc1KqSk6Dfu9qCx"
+        },
+        {
+          "number": 23,
+          "title": "23 - Exercise 7 - Movies",
+          "id": "1dfoz3wbNclo0-CRCK_szO1med84zR12J",
+          "anchor": "v-1dfoz3wbNclo0-CRCK_szO1med84zR12J",
+          "href": "s6.html#v-1dfoz3wbNclo0-CRCK_szO1med84zR12J"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Functions",
+      "page": "s7.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Function Declarations vs. Expressions",
+          "id": "1VA6ca9nbrRM9rSb1iaAAa-SBh4WsdY5f",
+          "anchor": "v-1VA6ca9nbrRM9rSb1iaAAa-SBh4WsdY5f",
+          "href": "s7.html#v-1VA6ca9nbrRM9rSb1iaAAa-SBh4WsdY5f"
+        },
+        {
+          "number": 2,
+          "title": "2 - Hoisting",
+          "id": "1VJdqOmNc1iaW3RxfSCtSOKkVxBNlyitQ",
+          "anchor": "v-1VJdqOmNc1iaW3RxfSCtSOKkVxBNlyitQ",
+          "href": "s7.html#v-1VJdqOmNc1iaW3RxfSCtSOKkVxBNlyitQ"
+        },
+        {
+          "number": 3,
+          "title": "3 - Arguments",
+          "id": "1VRHGTF7EysWtQ65l_cWDbKPNWLHGBTiv",
+          "anchor": "v-1VRHGTF7EysWtQ65l_cWDbKPNWLHGBTiv",
+          "href": "s7.html#v-1VRHGTF7EysWtQ65l_cWDbKPNWLHGBTiv"
+        },
+        {
+          "number": 4,
+          "title": "4 - The Rest Operator",
+          "id": "1TsRPwFjZbMw5I79HkmriOEha6GT05SVV",
+          "anchor": "v-1TsRPwFjZbMw5I79HkmriOEha6GT05SVV",
+          "href": "s7.html#v-1TsRPwFjZbMw5I79HkmriOEha6GT05SVV"
+        },
+        {
+          "number": 5,
+          "title": "5 - Default Parameters",
+          "id": "1W96YI1SMD-w9U1rzdmRxYC2QTiIZv3Ro",
+          "anchor": "v-1W96YI1SMD-w9U1rzdmRxYC2QTiIZv3Ro",
+          "href": "s7.html#v-1W96YI1SMD-w9U1rzdmRxYC2QTiIZv3Ro"
+        },
+        {
+          "number": 6,
+          "title": "6 - Getters and Setters",
+          "id": "1UD3aMTm_xMmJ43RH-PuMAWk_3RxGmlnw",
+          "anchor": "v-1UD3aMTm_xMmJ43RH-PuMAWk_3RxGmlnw",
+          "href": "s7.html#v-1UD3aMTm_xMmJ43RH-PuMAWk_3RxGmlnw"
+        },
+        {
+          "number": 7,
+          "title": "7 - Try and Catch",
+          "id": "1WmVVYokX5ai7kAU_g9cHB2-vJGwJzjfn",
+          "anchor": "v-1WmVVYokX5ai7kAU_g9cHB2-vJGwJzjfn",
+          "href": "s7.html#v-1WmVVYokX5ai7kAU_g9cHB2-vJGwJzjfn"
+        },
+        {
+          "number": 8,
+          "title": "8 - Local vs. Global Scope",
+          "id": "1VCU2CgeyRGuPnXnAcd1AJyz54tD_IFMx",
+          "anchor": "v-1VCU2CgeyRGuPnXnAcd1AJyz54tD_IFMx",
+          "href": "s7.html#v-1VCU2CgeyRGuPnXnAcd1AJyz54tD_IFMx"
+        },
+        {
+          "number": 9,
+          "title": "9 - Let vs Var",
+          "id": "1WmYI5F9ig4QHYas-8liX9F0AsFLwr-0x",
+          "anchor": "v-1WmYI5F9ig4QHYas-8liX9F0AsFLwr-0x",
+          "href": "s7.html#v-1WmYI5F9ig4QHYas-8liX9F0AsFLwr-0x"
+        },
+        {
+          "number": 10,
+          "title": "10 - The This Keyword",
+          "id": "1VRj0NbqCXdNFOshZ7MI5o_UVZ3rylas5",
+          "anchor": "v-1VRj0NbqCXdNFOshZ7MI5o_UVZ3rylas5",
+          "href": "s7.html#v-1VRj0NbqCXdNFOshZ7MI5o_UVZ3rylas5"
+        },
+        {
+          "number": 11,
+          "title": "11 - Changing This",
+          "id": "1VOD6rKqR_xAr0j3VqL4c9ru2CEI-HIvS",
+          "anchor": "v-1VOD6rKqR_xAr0j3VqL4c9ru2CEI-HIvS",
+          "href": "s7.html#v-1VOD6rKqR_xAr0j3VqL4c9ru2CEI-HIvS"
+        },
+        {
+          "number": 12,
+          "title": "12 - Exercise 1 - Sum of Arguments",
+          "id": "1VBOtl3oMwho3Qp1BRawwutFOD8v_NIIl",
+          "anchor": "v-1VBOtl3oMwho3Qp1BRawwutFOD8v_NIIl",
+          "href": "s7.html#v-1VBOtl3oMwho3Qp1BRawwutFOD8v_NIIl"
+        },
+        {
+          "number": 13,
+          "title": "13 - Exercise 2 - Area of Circle",
+          "id": "1UJ-zpF2MBHo_VY6z7V3t2XNOe4W66MY6",
+          "anchor": "v-1UJ-zpF2MBHo_VY6z7V3t2XNOe4W66MY6",
+          "href": "s7.html#v-1UJ-zpF2MBHo_VY6z7V3t2XNOe4W66MY6"
+        },
+        {
+          "number": 14,
+          "title": "14 - Exercise 3 - Error Handling",
+          "id": "1V-boDWwyt8TzRDolRwQVtsrKOYsgCYtP",
+          "anchor": "v-1V-boDWwyt8TzRDolRwQVtsrKOYsgCYtP",
+          "href": "s7.html#v-1V-boDWwyt8TzRDolRwQVtsrKOYsgCYtP"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Getting Started - OOP in JavaScript",
+      "page": "s8.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "What is OOP",
+          "id": "1TNnaXnUGJgA_WKrjq-uB9pmXFkAWlDVs",
+          "anchor": "v-1TNnaXnUGJgA_WKrjq-uB9pmXFkAWlDVs",
+          "href": "s8.html#v-1TNnaXnUGJgA_WKrjq-uB9pmXFkAWlDVs"
+        },
+        {
+          "number": 2,
+          "title": "Four Pillars of OOP",
+          "id": "1TU3y-FtZk4ubgv1ZcK7hObN-Qm9Olp2W",
+          "anchor": "v-1TU3y-FtZk4ubgv1ZcK7hObN-Qm9Olp2W",
+          "href": "s8.html#v-1TU3y-FtZk4ubgv1ZcK7hObN-Qm9Olp2W"
+        },
+        {
+          "number": 3,
+          "title": "Setting Up the Development Environment",
+          "id": "1TC4w-aREf2wzu5sbHPLB7y0kihuniGPF",
+          "anchor": "v-1TC4w-aREf2wzu5sbHPLB7y0kihuniGPF",
+          "href": "s8.html#v-1TC4w-aREf2wzu5sbHPLB7y0kihuniGPF"
+        },
+        {
+          "number": 4,
+          "title": "Course Structure",
+          "id": "1T_gtt4Z2l1OlfyuyDLZzCO2VXeeGbBaf",
+          "anchor": "v-1T_gtt4Z2l1OlfyuyDLZzCO2VXeeGbBaf",
+          "href": "s8.html#v-1T_gtt4Z2l1OlfyuyDLZzCO2VXeeGbBaf"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Objects",
+      "page": "s9.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Introduction",
+          "id": "1PaRi_WGUAA9bx-KXMc7K-t33en5awQQl",
+          "anchor": "v-1PaRi_WGUAA9bx-KXMc7K-t33en5awQQl",
+          "href": "s9.html#v-1PaRi_WGUAA9bx-KXMc7K-t33en5awQQl"
+        },
+        {
+          "number": 2,
+          "title": "2 - Object Literals",
+          "id": "1Om0bwjF3cVNJ0pGi8G7JrXMpdJq93wzh",
+          "anchor": "v-1Om0bwjF3cVNJ0pGi8G7JrXMpdJq93wzh",
+          "href": "s9.html#v-1Om0bwjF3cVNJ0pGi8G7JrXMpdJq93wzh"
+        },
+        {
+          "number": 3,
+          "title": "3 - Factories",
+          "id": "1Pc78sh_eubquKCCTG-BN4hz6GDhCnvCM",
+          "anchor": "v-1Pc78sh_eubquKCCTG-BN4hz6GDhCnvCM",
+          "href": "s9.html#v-1Pc78sh_eubquKCCTG-BN4hz6GDhCnvCM"
+        },
+        {
+          "number": 4,
+          "title": "4 - Constructors",
+          "id": "1PZ7N62xkIQDCG56IDDYq-jn90qfqtsio",
+          "anchor": "v-1PZ7N62xkIQDCG56IDDYq-jn90qfqtsio",
+          "href": "s9.html#v-1PZ7N62xkIQDCG56IDDYq-jn90qfqtsio"
+        },
+        {
+          "number": 5,
+          "title": "5 - Constructor Property",
+          "id": "1P8LVm3oe7rP1tgtX8Cj7tC7iDHPB8ZrA",
+          "anchor": "v-1P8LVm3oe7rP1tgtX8Cj7tC7iDHPB8ZrA",
+          "href": "s9.html#v-1P8LVm3oe7rP1tgtX8Cj7tC7iDHPB8ZrA"
+        },
+        {
+          "number": 6,
+          "title": "6 - Functions are Objects",
+          "id": "1P26RsaHO3XP1PuWJbKMK7-r5fJi5-xv1",
+          "anchor": "v-1P26RsaHO3XP1PuWJbKMK7-r5fJi5-xv1",
+          "href": "s9.html#v-1P26RsaHO3XP1PuWJbKMK7-r5fJi5-xv1"
+        },
+        {
+          "number": 7,
+          "title": "7 - Value vs Reference Types",
+          "id": "1PTjyaSxJo2b_UDEPR1MXdXMSqsWM4fGD",
+          "anchor": "v-1PTjyaSxJo2b_UDEPR1MXdXMSqsWM4fGD",
+          "href": "s9.html#v-1PTjyaSxJo2b_UDEPR1MXdXMSqsWM4fGD"
+        },
+        {
+          "number": 8,
+          "title": "8 - Adding or Removing Properties",
+          "id": "1PDqimVDwhwiw2wnjA8XakKd9C1zjeuvy",
+          "anchor": "v-1PDqimVDwhwiw2wnjA8XakKd9C1zjeuvy",
+          "href": "s9.html#v-1PDqimVDwhwiw2wnjA8XakKd9C1zjeuvy"
+        },
+        {
+          "number": 9,
+          "title": "9 - Enumerating Properties",
+          "id": "1OJYO0umG7e6FaBtMa41qxvhOnspy411v",
+          "anchor": "v-1OJYO0umG7e6FaBtMa41qxvhOnspy411v",
+          "href": "s9.html#v-1OJYO0umG7e6FaBtMa41qxvhOnspy411v"
+        },
+        {
+          "number": 10,
+          "title": "10 - Abstraction",
+          "id": "1PBVvc_DXkSgg1pRXs-bL2xQG5U8GuEnD",
+          "anchor": "v-1PBVvc_DXkSgg1pRXs-bL2xQG5U8GuEnD",
+          "href": "s9.html#v-1PBVvc_DXkSgg1pRXs-bL2xQG5U8GuEnD"
+        },
+        {
+          "number": 11,
+          "title": "11 - Private Properties and Methods",
+          "id": "1PuQLOO5DrQl9U4d1P2ndLHyt7kyK4nH1",
+          "anchor": "v-1PuQLOO5DrQl9U4d1P2ndLHyt7kyK4nH1",
+          "href": "s9.html#v-1PuQLOO5DrQl9U4d1P2ndLHyt7kyK4nH1"
+        },
+        {
+          "number": 12,
+          "title": "Getters and Setters",
+          "id": "1P5tJAjMHdhY7Q9TfFqo5Y1CjJslGlUHH",
+          "anchor": "v-1P5tJAjMHdhY7Q9TfFqo5Y1CjJslGlUHH",
+          "href": "s9.html#v-1P5tJAjMHdhY7Q9TfFqo5Y1CjJslGlUHH"
+        },
+        {
+          "number": 13,
+          "title": "14 - Exercise - Stop Watch",
+          "id": "1OvcKzqSVHLbxNQZe467jczr-uuq4DXxo",
+          "anchor": "v-1OvcKzqSVHLbxNQZe467jczr-uuq4DXxo",
+          "href": "s9.html#v-1OvcKzqSVHLbxNQZe467jczr-uuq4DXxo"
+        },
+        {
+          "number": 14,
+          "title": "15 - Solution - Stopwatch",
+          "id": "1P0jok2ItcaMSvpqd5kvpTP_EpVWVL9Ee",
+          "anchor": "v-1P0jok2ItcaMSvpqd5kvpTP_EpVWVL9Ee",
+          "href": "s9.html#v-1P0jok2ItcaMSvpqd5kvpTP_EpVWVL9Ee"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Prototypes",
+      "page": "s10.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Inheritance",
+          "id": "1Nj9zfSGLujVZ81oEWsEbiqus-DiITIpC",
+          "anchor": "v-1Nj9zfSGLujVZ81oEWsEbiqus-DiITIpC",
+          "href": "s10.html#v-1Nj9zfSGLujVZ81oEWsEbiqus-DiITIpC"
+        },
+        {
+          "number": 2,
+          "title": "2 - Prototypes and Prototypical Inheritance",
+          "id": "1MjuDU3LKMiiRlQgrl3jbXC5_Cp0M3Krd",
+          "anchor": "v-1MjuDU3LKMiiRlQgrl3jbXC5_Cp0M3Krd",
+          "href": "s10.html#v-1MjuDU3LKMiiRlQgrl3jbXC5_Cp0M3Krd"
+        },
+        {
+          "number": 3,
+          "title": "3 - Multi-level Inheritance",
+          "id": "1NfrfkXWFCgw2alEa-BUgPo3dm0jVvdd5",
+          "anchor": "v-1NfrfkXWFCgw2alEa-BUgPo3dm0jVvdd5",
+          "href": "s10.html#v-1NfrfkXWFCgw2alEa-BUgPo3dm0jVvdd5"
+        },
+        {
+          "number": 4,
+          "title": "4 - Property Descriptors",
+          "id": "1Nlc_unRICXZFZ59SvATwWg9QyOIgO3n6",
+          "anchor": "v-1Nlc_unRICXZFZ59SvATwWg9QyOIgO3n6",
+          "href": "s10.html#v-1Nlc_unRICXZFZ59SvATwWg9QyOIgO3n6"
+        },
+        {
+          "number": 5,
+          "title": "5 - Constructor Prototypes",
+          "id": "1MrPkx6pT1Qs0TjfsNjgipBIhbHZ4VbHk",
+          "anchor": "v-1MrPkx6pT1Qs0TjfsNjgipBIhbHZ4VbHk",
+          "href": "s10.html#v-1MrPkx6pT1Qs0TjfsNjgipBIhbHZ4VbHk"
+        },
+        {
+          "number": 6,
+          "title": "6 - Prototype vs. Instance Members",
+          "id": "1NmJnSh2kUky74DQPvUxknI1-__08v3wW",
+          "anchor": "v-1NmJnSh2kUky74DQPvUxknI1-__08v3wW",
+          "href": "s10.html#v-1NmJnSh2kUky74DQPvUxknI1-__08v3wW"
+        },
+        {
+          "number": 7,
+          "title": "7 - Iterating Instance and Prototype Members",
+          "id": "1MmAiHjZoQdODn2V_ogIaLk9USQtEumZV",
+          "anchor": "v-1MmAiHjZoQdODn2V_ogIaLk9USQtEumZV",
+          "href": "s10.html#v-1MmAiHjZoQdODn2V_ogIaLk9USQtEumZV"
+        },
+        {
+          "number": 8,
+          "title": "8 - Avoid Extending the Built-in Objects",
+          "id": "1O09bBjBNfr90GXGA21yayt3ZAy5dYe65",
+          "anchor": "v-1O09bBjBNfr90GXGA21yayt3ZAy5dYe65",
+          "href": "s10.html#v-1O09bBjBNfr90GXGA21yayt3ZAy5dYe65"
+        },
+        {
+          "number": 9,
+          "title": "10 - Exercise",
+          "id": "1NST-mLN-1F_ig8hVew5aRpnM-t4Q0_Lr",
+          "anchor": "v-1NST-mLN-1F_ig8hVew5aRpnM-t4Q0_Lr",
+          "href": "s10.html#v-1NST-mLN-1F_ig8hVew5aRpnM-t4Q0_Lr"
+        },
+        {
+          "number": 10,
+          "title": "11 - Solution",
+          "id": "1O3xqeghIQZZcI40z_XC1_uyNM7asZI2n",
+          "anchor": "v-1O3xqeghIQZZcI40z_XC1_uyNM7asZI2n",
+          "href": "s10.html#v-1O3xqeghIQZZcI40z_XC1_uyNM7asZI2n"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Prototypical Inheritance",
+      "page": "s11.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Creating Your Own Prototypical Inheritance",
+          "id": "1RbzadBgzU6WPEJ_W0Mf3y7irQGzA8Asx",
+          "anchor": "v-1RbzadBgzU6WPEJ_W0Mf3y7irQGzA8Asx",
+          "href": "s11.html#v-1RbzadBgzU6WPEJ_W0Mf3y7irQGzA8Asx"
+        },
+        {
+          "number": 2,
+          "title": "2 - Resetting the Constructor",
+          "id": "1R4eaby8b230cyF2eP6DWnm9NqTXAM-6r",
+          "anchor": "v-1R4eaby8b230cyF2eP6DWnm9NqTXAM-6r",
+          "href": "s11.html#v-1R4eaby8b230cyF2eP6DWnm9NqTXAM-6r"
+        },
+        {
+          "number": 3,
+          "title": "3 - Calling the Super Constructor",
+          "id": "1RCBehnU3IfDAJg0eacPMw52_hU-FTh_G",
+          "anchor": "v-1RCBehnU3IfDAJg0eacPMw52_hU-FTh_G",
+          "href": "s11.html#v-1RCBehnU3IfDAJg0eacPMw52_hU-FTh_G"
+        },
+        {
+          "number": 4,
+          "title": "4 - Intermediate Function Inheritance",
+          "id": "1RuLbsTt5JXyIpGDJZbCEr7Zaa9JulpfK",
+          "anchor": "v-1RuLbsTt5JXyIpGDJZbCEr7Zaa9JulpfK",
+          "href": "s11.html#v-1RuLbsTt5JXyIpGDJZbCEr7Zaa9JulpfK"
+        },
+        {
+          "number": 5,
+          "title": "5 - Method Overriding",
+          "id": "1RKdWiXzclFbPkqMpzs3OWPJJC-FYth_Z",
+          "anchor": "v-1RKdWiXzclFbPkqMpzs3OWPJJC-FYth_Z",
+          "href": "s11.html#v-1RKdWiXzclFbPkqMpzs3OWPJJC-FYth_Z"
+        },
+        {
+          "number": 6,
+          "title": "6 - Polymorphism",
+          "id": "1RV_bE4a2QT_jMU5SaVn8kFxvbLpHkBQ0",
+          "anchor": "v-1RV_bE4a2QT_jMU5SaVn8kFxvbLpHkBQ0",
+          "href": "s11.html#v-1RV_bE4a2QT_jMU5SaVn8kFxvbLpHkBQ0"
+        },
+        {
+          "number": 7,
+          "title": "7 - When to Use Inheritance",
+          "id": "1RFwhY6bvZN1faEYg-uXaGaBrXJ7qFZhS",
+          "anchor": "v-1RFwhY6bvZN1faEYg-uXaGaBrXJ7qFZhS",
+          "href": "s11.html#v-1RFwhY6bvZN1faEYg-uXaGaBrXJ7qFZhS"
+        },
+        {
+          "number": 8,
+          "title": "8 - Mixins",
+          "id": "1RF7xDpMHXy3M7DKrpBADOLiQJ8_wz1EE",
+          "anchor": "v-1RF7xDpMHXy3M7DKrpBADOLiQJ8_wz1EE",
+          "href": "s11.html#v-1RF7xDpMHXy3M7DKrpBADOLiQJ8_wz1EE"
+        },
+        {
+          "number": 9,
+          "title": "10 - Exercise Prototypical Inheritence",
+          "id": "1PxMu5FuM5Im7fbFtYpn_wUTkOpJvmI3i",
+          "anchor": "v-1PxMu5FuM5Im7fbFtYpn_wUTkOpJvmI3i",
+          "href": "s11.html#v-1PxMu5FuM5Im7fbFtYpn_wUTkOpJvmI3i"
+        },
+        {
+          "number": 10,
+          "title": "11 - Solution Prototypical Inheritance",
+          "id": "1RqRrDxRxRJXbO_Oo3bWjs13uZ7OD7WOK",
+          "anchor": "v-1RqRrDxRxRJXbO_Oo3bWjs13uZ7OD7WOK",
+          "href": "s11.html#v-1RqRrDxRxRJXbO_Oo3bWjs13uZ7OD7WOK"
+        },
+        {
+          "number": 11,
+          "title": "12 - Exercise - Polymorphism",
+          "id": "1QyX-PiYwPAsgcb-B05Nz7pTuvhbJ1WYU",
+          "anchor": "v-1QyX-PiYwPAsgcb-B05Nz7pTuvhbJ1WYU",
+          "href": "s11.html#v-1QyX-PiYwPAsgcb-B05Nz7pTuvhbJ1WYU"
+        },
+        {
+          "number": 12,
+          "title": "13 - Solution - Polymorphism",
+          "id": "1RTGXeJC_x3P2d93YZs7-d11BrEEKmaTG",
+          "anchor": "v-1RTGXeJC_x3P2d93YZs7-d11BrEEKmaTG",
+          "href": "s11.html#v-1RTGXeJC_x3P2d93YZs7-d11BrEEKmaTG"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "ES6 Classes",
+      "page": "s12.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - ES6 Classes",
+          "id": "1LRtLEbJm6cLk33Uq1I5Qzmm6PbXF6TtO",
+          "anchor": "v-1LRtLEbJm6cLk33Uq1I5Qzmm6PbXF6TtO",
+          "href": "s12.html#v-1LRtLEbJm6cLk33Uq1I5Qzmm6PbXF6TtO"
+        },
+        {
+          "number": 2,
+          "title": "2 - Hoisting",
+          "id": "1Koi4AwAnm38rb0SZ9H_vVuCavu86px1T",
+          "anchor": "v-1Koi4AwAnm38rb0SZ9H_vVuCavu86px1T",
+          "href": "s12.html#v-1Koi4AwAnm38rb0SZ9H_vVuCavu86px1T"
+        },
+        {
+          "number": 3,
+          "title": "3 - Static Methods",
+          "id": "1L_1QKTCZVmJ35K_DhCJ6KiNuDgUhK7lG",
+          "anchor": "v-1L_1QKTCZVmJ35K_DhCJ6KiNuDgUhK7lG",
+          "href": "s12.html#v-1L_1QKTCZVmJ35K_DhCJ6KiNuDgUhK7lG"
+        },
+        {
+          "number": 4,
+          "title": "4 - The This Keyword",
+          "id": "1LTPJWkjgEUIDAb1JiWUpw-gYsAxZlGpn",
+          "anchor": "v-1LTPJWkjgEUIDAb1JiWUpw-gYsAxZlGpn",
+          "href": "s12.html#v-1LTPJWkjgEUIDAb1JiWUpw-gYsAxZlGpn"
+        },
+        {
+          "number": 5,
+          "title": "5 - Private Members Using Symbols",
+          "id": "1MEMGh3lviu1gjwlLdfuv834JBTyVLTGY",
+          "anchor": "v-1MEMGh3lviu1gjwlLdfuv834JBTyVLTGY",
+          "href": "s12.html#v-1MEMGh3lviu1gjwlLdfuv834JBTyVLTGY"
+        },
+        {
+          "number": 6,
+          "title": "Private Members Using WeakMaps",
+          "id": "1KuOVmt3DxsGW0GStpMxsKfY2d6sJCfoS",
+          "anchor": "v-1KuOVmt3DxsGW0GStpMxsKfY2d6sJCfoS",
+          "href": "s12.html#v-1KuOVmt3DxsGW0GStpMxsKfY2d6sJCfoS"
+        },
+        {
+          "number": 7,
+          "title": "7 - Getters and Setters",
+          "id": "1Lb6C15hC4gj8ICQ0KvyJPJkSXy8l63yk",
+          "anchor": "v-1Lb6C15hC4gj8ICQ0KvyJPJkSXy8l63yk",
+          "href": "s12.html#v-1Lb6C15hC4gj8ICQ0KvyJPJkSXy8l63yk"
+        },
+        {
+          "number": 8,
+          "title": "Inheritance",
+          "id": "1LMxJrqNID8KoFUSZtCeRoUkL09e1TsLr",
+          "anchor": "v-1LMxJrqNID8KoFUSZtCeRoUkL09e1TsLr",
+          "href": "s12.html#v-1LMxJrqNID8KoFUSZtCeRoUkL09e1TsLr"
+        },
+        {
+          "number": 9,
+          "title": "9 - Method Riding",
+          "id": "1M2pVQS4y06BloRqqOG5ZYhDkWen7lkcA",
+          "anchor": "v-1M2pVQS4y06BloRqqOG5ZYhDkWen7lkcA",
+          "href": "s12.html#v-1M2pVQS4y06BloRqqOG5ZYhDkWen7lkcA"
+        },
+        {
+          "number": 10,
+          "title": "11 - Exercise",
+          "id": "1LZD3xZKZScaC48OlzfqzSR7TAZ0OxCLP",
+          "anchor": "v-1LZD3xZKZScaC48OlzfqzSR7TAZ0OxCLP",
+          "href": "s12.html#v-1LZD3xZKZScaC48OlzfqzSR7TAZ0OxCLP"
+        },
+        {
+          "number": 11,
+          "title": "12 - Solution",
+          "id": "1Kw9D2NwaEK0BcsGNoLjQNvpRqw4r5QKH",
+          "anchor": "v-1Kw9D2NwaEK0BcsGNoLjQNvpRqw4r5QKH",
+          "href": "s12.html#v-1Kw9D2NwaEK0BcsGNoLjQNvpRqw4r5QKH"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "ES6 Modules",
+      "page": "s13.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "1 - Modules",
+          "id": "1RzT29JdXrrpBKTMYVZvKeGL8afdN9NeN",
+          "anchor": "v-1RzT29JdXrrpBKTMYVZvKeGL8afdN9NeN",
+          "href": "s13.html#v-1RzT29JdXrrpBKTMYVZvKeGL8afdN9NeN"
+        },
+        {
+          "number": 2,
+          "title": "2 - CommonJS Modules",
+          "id": "1S2bWIOT8ijRo1NlN30v7L5Me4NncqH7f",
+          "anchor": "v-1S2bWIOT8ijRo1NlN30v7L5Me4NncqH7f",
+          "href": "s13.html#v-1S2bWIOT8ijRo1NlN30v7L5Me4NncqH7f"
+        },
+        {
+          "number": 3,
+          "title": "3 - ES6 Modules",
+          "id": "1T6oLo7T4TXiZZPJV9wmn24tvy80SKjaR",
+          "anchor": "v-1T6oLo7T4TXiZZPJV9wmn24tvy80SKjaR",
+          "href": "s13.html#v-1T6oLo7T4TXiZZPJV9wmn24tvy80SKjaR"
+        },
+        {
+          "number": 4,
+          "title": "4 - ES6 Tooling",
+          "id": "1SWzu_0MgDAkKMAC8oLZaSx_WI1tiB70d",
+          "anchor": "v-1SWzu_0MgDAkKMAC8oLZaSx_WI1tiB70d",
+          "href": "s13.html#v-1SWzu_0MgDAkKMAC8oLZaSx_WI1tiB70d"
+        },
+        {
+          "number": 5,
+          "title": "5 - Babel",
+          "id": "1S37c7euEC5KkkRzHmY0mekYoKgmt7tnJ",
+          "anchor": "v-1S37c7euEC5KkkRzHmY0mekYoKgmt7tnJ",
+          "href": "s13.html#v-1S37c7euEC5KkkRzHmY0mekYoKgmt7tnJ"
+        },
+        {
+          "number": 6,
+          "title": "6 - Webpack",
+          "id": "1SklYqkaI9-YWVj1EarrpNvHeFn3MhTR_",
+          "anchor": "v-1SklYqkaI9-YWVj1EarrpNvHeFn3MhTR_",
+          "href": "s13.html#v-1SklYqkaI9-YWVj1EarrpNvHeFn3MhTR_"
+        }
+      ]
+    }
+  ]
+}

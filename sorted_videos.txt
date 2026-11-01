@@ -1,0 +1,183 @@
+# The Ultimate JavaScript Series
+
+1. Getting Started  [s1.html]
+    001. 1 - Welcome  ->  https://drive.google.com/file/d/1Xl4oZmGhF2b-GZVCljJYtf5kWB6cJSxf/preview
+    002. 2 - What is JavaScript  ->  https://drive.google.com/file/d/1XjVLrUlzHT_9-xplK7le9az6FxL6nDdM/preview
+    003. 3 - Setting Up the Development  ->  https://drive.google.com/file/d/1XzOoUtj0ZJtuFw6b5DWRzNwuqQMUsEu6/preview
+    004. 4 - JavaScript in Browsers  ->  https://drive.google.com/file/d/1WrIfG_1uSqseMKRSMyfbpICTqsvpO30A/preview
+    005. 5 - Separation of Concerns  ->  https://drive.google.com/file/d/1X3bBNMaSerdv89pXaXNJwmyHWrxO53Q6/preview
+    006. 6 - JavaScript in Node  ->  https://drive.google.com/file/d/1XnRjZBuYIEgu1pc_m-M0meXntvbXV15R/preview
+
+2. Basics  [s2.html]
+    001. 1 - Variables  ->  https://drive.google.com/file/d/1bqPVEwASjhJnnQpofvbdLkIZkuJCQMlI/preview
+    002. 2 - Constants  ->  https://drive.google.com/file/d/1aU5XC_hyNGNUVYY8xKGz8GB7HApE92CG/preview
+    003. 3 - Primitive Types  ->  https://drive.google.com/file/d/1bUtq5kbSItlMx2_gPw6d3OzoZPbkTOdn/preview
+    004. 4 - Dynamic Typing  ->  https://drive.google.com/file/d/1bA8Vgapa-tasv4fAWW4mAb7A8RScnVfH/preview
+    005. 5 - Objects  ->  https://drive.google.com/file/d/1bqePpEW7-c7g2vUHOWeX0iUJW7bMeybX/preview
+    006. Arrays  ->  https://drive.google.com/file/d/1a2bDtA9Ezoq_QMiGFLI7lik_-CEkVb2o/preview
+    007. Functions  ->  https://drive.google.com/file/d/1bUgRjN6guuyrJtbgUZsGPjllz1l2a2d1/preview
+    008. Types of Functions  ->  https://drive.google.com/file/d/1bkFHKjKzMfxNk80Nx2nzjo-Y1XnqjROj/preview
+
+3. Operators  [s3.html]
+    001. 1 - JavaScript Operators  ->  https://drive.google.com/file/d/1g0pU2KWezjrJAA6ibDdYnWl96Uh2yh38/preview
+    002. Arithmetic Operators  ->  https://drive.google.com/file/d/1fsayA51A5Q5L6lesZRxIW-zrlhAQjuLZ/preview
+    003. 3 - Assignment Operators  ->  https://drive.google.com/file/d/1gxm7LgBvQV9hcHFKKct1fNKibyk3nAr6/preview
+    004. 4 - Comparison Operators  ->  https://drive.google.com/file/d/1hezibELfn-6OvQKtNcKURSYNT28tccOb/preview
+    005. 5 - Equality Operators  ->  https://drive.google.com/file/d/1hB0WEm3HjFTAFhoMoeX5lkp45B7qjeqK/preview
+    006. 6 - Ternary Operators  ->  https://drive.google.com/file/d/1hf5aTO4bHke5t7DdAtkxJNRA4hG7ssyf/preview
+    007. 7 - Logical Operators with Non-booleans  ->  https://drive.google.com/file/d/1gfa7SMYPB3SY5dvt02Y2laEPPOv2h12p/preview
+    008. 8 - Logical Operators with Non-Booleans  ->  https://drive.google.com/file/d/1gzSRRfIN5SFmwPSrvF_pHc478PmQz3Dn/preview
+    009. BitWise Operators  ->  https://drive.google.com/file/d/1h3m_0LJWA7sql7wDzTXmeEraeQmFwEun/preview
+    010. 10 - Operator Precedence  ->  https://drive.google.com/file/d/1helDBoqpqXnJ0JGawgqdTg5c3zSivVdL/preview
+    011. 12 - Exercise - Swapping Variables  ->  https://drive.google.com/file/d/1gO2j3Rd4rd7qFV2EaAUYK3By_TjMqanp/preview
+
+4. Control Flow  [s4.html]
+    001. 1 - If...else  ->  https://drive.google.com/file/d/1ibvzIVQZWuU_s5XlEfxESvVrr-skRnVg/preview
+    002. 2 - Switch...case  ->  https://drive.google.com/file/d/1hmsJhZ8b0KpyJ1LrjHzBIqLqLJlT4-7g/preview
+    003. 3 - For  ->  https://drive.google.com/file/d/1kIt7_1FjW2SWQeBE8LCalKS_0EaXbQlx/preview
+    004. 4 - While  ->  https://drive.google.com/file/d/1ib68UKz5BsDvXaPwx8cHYXP-id382QXW/preview
+    005. 5 - Do...While  ->  https://drive.google.com/file/d/1jGuxv5NAfU_qxSHAdZcT4q293uu1euEq/preview
+    006. 6 - Infinite Loops  ->  https://drive.google.com/file/d/1j9maqqzmMLMUsJePLDIxgsW09Zuh-eux/preview
+    007. 7 - For...In  ->  https://drive.google.com/file/d/1kImnQJLDvUTT-KABvuI94qHZ4rLH7zm0/preview
+    008. 8 - For...of  ->  https://drive.google.com/file/d/1iVGVPF2UuP4lc6fnGPYPejHoYdYrNG5f/preview
+    009. 10 - Max of Two Numbers  ->  https://drive.google.com/file/d/1kKI-To8S_JAKLY3Lh3buBxZi0vkMv4E_/preview
+    010. 12 - Exercise - FizzBuzz  ->  https://drive.google.com/file/d/1ht8-SUcvfPodbAiNP0TtrSmxwTYTeWlg/preview
+    011. 13 - Exercise - Demerit Points  ->  https://drive.google.com/file/d/1hknHcjExGcpDzeOpO9WklIjjnPDT9DDU/preview
+    012. 14 - Exercise - Even and Odd Numbers  ->  https://drive.google.com/file/d/1khIiSEhgFl9LPZ-fQimVZpLRmS_XVnqX/preview
+    013. 16 - Exercise - String Properties  ->  https://drive.google.com/file/d/1kiTPZqkhzoqWcwn9nHLd3zS2AuCSa9_1/preview
+    014. 17 - Exercise - Sum of Multiples 3 and 5  ->  https://drive.google.com/file/d/1j7M7fQLnYAgXRbFSSeyurP-fhz3e80K9/preview
+    015. 18 - Exercise - Grade  ->  https://drive.google.com/file/d/1jL1aC455TEFyS2XEPz5hcZ4P2SuLTBD2/preview
+    016. 19 - Exercise - Stars  ->  https://drive.google.com/file/d/1iaMOHQtKJrhvvEiqh6M92GRtFu5p49PZ/preview
+    017. 20 - Exercise - Prime Numbers  ->  https://drive.google.com/file/d/1jMBzxEVUr2ArDXf3qezmsAtMbl3ZTSbi/preview
+
+5. Objects  [s5.html]
+    001. 1 - Basics  ->  https://drive.google.com/file/d/1_PV6YOqCKvgsuikF1VwLANrMnaVCSTbz/preview
+    002. 2 - Factory Functions  ->  https://drive.google.com/file/d/1ZBj6KV9aK4sdFzAecphUlqs_jqGlBvaP/preview
+    003. 3 - Constructor Functions  ->  https://drive.google.com/file/d/1_c7paoHOtcwvwH4Qj2ZWIqsOomScT9-c/preview
+    004. 4 - Dynamic Nature of Objects  ->  https://drive.google.com/file/d/1_-ZzSR-m5ZvR-hOU_Wd7JQDy6WUTl1eM/preview
+    005. 5 - Constructor Property  ->  https://drive.google.com/file/d/1_TD-jqKtBmmJfWfG_y1DpgSfXh_zx1xJ/preview
+    006. 6 - Functions are Objects  ->  https://drive.google.com/file/d/1_UKKMQC0wMw_X6MRRXwOBVcQerzLhXdX/preview
+    007. 7 - Value vs. Reference Types  ->  https://drive.google.com/file/d/1YsKGDe6lioNDiWN6BbJWrkotqBuP3YVD/preview
+    008. 8 - Enumerating Properties of an Object  ->  https://drive.google.com/file/d/1_htxNVxw9jqRucvfCt_OurBoWFL4mk6H/preview
+    009. 9 - Cloning an Object  ->  https://drive.google.com/file/d/1_azJzrJHIL_hidpgELUcBiv-YLkzVtsk/preview
+    010. 10 - Garbage Collection  ->  https://drive.google.com/file/d/1_Gn3oxqWw15qeiPmCB_0Dd08E0llQMyX/preview
+    011. 11 - Math  ->  https://drive.google.com/file/d/1_IDF9hgjc0pSWSUZPythaL0dFMSk4g7t/preview
+    012. 12 - String  ->  https://drive.google.com/file/d/1ZXVxfg0tQdPFHx37dBvq17p0X19-RFan/preview
+    013. 13 - Template Literals  ->  https://drive.google.com/file/d/1_YKK6Th4yM3cRp1mgU-K8fRUzAK6WIu3/preview
+    014. 14 - Date  ->  https://drive.google.com/file/d/1YuvIPGNRnqi4ENaqH-OeBZQRb021cOu_/preview
+    015. 15 - Exercise 1 - Address Object  ->  https://drive.google.com/file/d/1Z9z5E3YFMy8tyKBJlfo3htWiuFe8S0LK/preview
+    016. 16 - Exercise - Factory and Constructor Function  ->  https://drive.google.com/file/d/1ZUpqWUJljcrjCP9x1rpZnGFwSHuc3Ggz/preview
+    017. 17 - Exercise 3 - Object Equality  ->  https://drive.google.com/file/d/1_Ld67EzFHd38xY4j_lZmXJi8UQeey92J/preview
+    018. 18 - Exercise 4 - Blog Post Object  ->  https://drive.google.com/file/d/1YnuT2GhppG5A6tDCrmyoBCdk84ufbTC7/preview
+    019. 19 - Exercise 5 - Constructor Functions  ->  https://drive.google.com/file/d/1ZD2DWaTs_QHppfI9lZxaaQbIn6Xbq9fX/preview
+    020. 20 - Exercise 6 - Price Range Objects  ->  https://drive.google.com/file/d/1ZT_yturvfKrVu0jcRXF2YXRWHR897uvi/preview
+
+6. Arrays  [s6.html]
+    001. 1 - Introduction  ->  https://drive.google.com/file/d/1eSSesFN5S4EGovAVJzuYC2H1axa1SC7R/preview
+    002. 2 - Adding Elements  ->  https://drive.google.com/file/d/1c_VdEnBkxyO0xqG8kHvcojp62FFpAqh4/preview
+    003. 3 - Finding Elements Primitives  ->  https://drive.google.com/file/d/1dmnN0O89pPzbOdCZgq60-mjx0bsBDdmy/preview
+    004. 4 - Finding Elements Reference Types  ->  https://drive.google.com/file/d/1egTafP0saUsc6B_WngcPIEB28WV9QAjI/preview
+    005. 5 - Arrow Functions  ->  https://drive.google.com/file/d/1dL72Twg0wwbsu1iNFP19jSjmj1nTT08q/preview
+    006. 6 - Removing Elements  ->  https://drive.google.com/file/d/1djDT-qFCVB48G3_VA2i-tPAsmJmVd7SB/preview
+    007. 7 - Emptying an Array  ->  https://drive.google.com/file/d/1ek777wxP2P_UgN6C4r3692MhL0BOYW-d/preview
+    008. 8 - Combining and Slicing Arrays  ->  https://drive.google.com/file/d/1dl6M6WGFlE0RZM-MJjshp8PKeKnrsnnn/preview
+    009. 9 - The Spread Operator  ->  https://drive.google.com/file/d/1cfNGSZDd8hQq1Yo3W6fxE4lYMdyVqu3W/preview
+    010. 10 - Iterating an Array  ->  https://drive.google.com/file/d/1c40CVZyF3zceZntHBLlTotWMnGQJOKgG/preview
+    011. 11 - Joining Arrays  ->  https://drive.google.com/file/d/1dTTOIJ5OijbKQ-8eWujAetIxtZ3h6C9R/preview
+    012. 12 - Sorting Arrays  ->  https://drive.google.com/file/d/1clrRCDijFCWk5G_YzX9zg0UBuLyMkT3r/preview
+    013. 13 - Testing the Elements of an Array  ->  https://drive.google.com/file/d/1fFK_eYtnc5hS_9OhGL3JpV2GX-Sdky0h/preview
+    014. 14 - Filtering an Array  ->  https://drive.google.com/file/d/1f0HT6YfSd0IPkDu24pinvyRc9UJm4-zV/preview
+    015. 15 - Mapping an Array  ->  https://drive.google.com/file/d/1fHXQUffEsPLzlCtJHL-n6FY6zXjCyqSI/preview
+    016. 16 - Reducing an Array  ->  https://drive.google.com/file/d/1dSAyE9MTzttmR1xMc-LPXTdTC1KFInBD/preview
+    017. 17 - Exercise 1 - Array from Range  ->  https://drive.google.com/file/d/1dX3AnU59PA6UFfXjtkDyNJarDvrrr7Kx/preview
+    018. 18 - Exercise 2 - Includes  ->  https://drive.google.com/file/d/1e5hgxrH4I6RzFDuS_3n9lNQytt6FrHBw/preview
+    019. 19 - Exercise 3 - Except  ->  https://drive.google.com/file/d/1cfe2xPXSZWSyXOJcUOXyfSxoZz8FZwEm/preview
+    020. 20 - Exercise 4 - Moving an Element  ->  https://drive.google.com/file/d/1crQqA1u5-cLNy_inIxmfvRGp30wIpGdc/preview
+    021. 21 - Exercise 5 - Count Occurrences  ->  https://drive.google.com/file/d/1cl2BL2BgEX2sgdiOTyGBpoKjffhs9NJ9/preview
+    022. 22 - Exercise 6 - Get Max  ->  https://drive.google.com/file/d/1cZGZkSnpzl9l6aLk1Nc1KqSk6Dfu9qCx/preview
+    023. 23 - Exercise 7 - Movies  ->  https://drive.google.com/file/d/1dfoz3wbNclo0-CRCK_szO1med84zR12J/preview
+
+7. Functions  [s7.html]
+    001. 1 - Function Declarations vs. Expressions  ->  https://drive.google.com/file/d/1VA6ca9nbrRM9rSb1iaAAa-SBh4WsdY5f/preview
+    002. 2 - Hoisting  ->  https://drive.google.com/file/d/1VJdqOmNc1iaW3RxfSCtSOKkVxBNlyitQ/preview
+    003. 3 - Arguments  ->  https://drive.google.com/file/d/1VRHGTF7EysWtQ65l_cWDbKPNWLHGBTiv/preview
+    004. 4 - The Rest Operator  ->  https://drive.google.com/file/d/1TsRPwFjZbMw5I79HkmriOEha6GT05SVV/preview
+    005. 5 - Default Parameters  ->  https://drive.google.com/file/d/1W96YI1SMD-w9U1rzdmRxYC2QTiIZv3Ro/preview
+    006. 6 - Getters and Setters  ->  https://drive.google.com/file/d/1UD3aMTm_xMmJ43RH-PuMAWk_3RxGmlnw/preview
+    007. 7 - Try and Catch  ->  https://drive.google.com/file/d/1WmVVYokX5ai7kAU_g9cHB2-vJGwJzjfn/preview
+    008. 8 - Local vs. Global Scope  ->  https://drive.google.com/file/d/1VCU2CgeyRGuPnXnAcd1AJyz54tD_IFMx/preview
+    009. 9 - Let vs Var  ->  https://drive.google.com/file/d/1WmYI5F9ig4QHYas-8liX9F0AsFLwr-0x/preview
+    010. 10 - The This Keyword  ->  https://drive.google.com/file/d/1VRj0NbqCXdNFOshZ7MI5o_UVZ3rylas5/preview
+    011. 11 - Changing This  ->  https://drive.google.com/file/d/1VOD6rKqR_xAr0j3VqL4c9ru2CEI-HIvS/preview
+    012. 12 - Exercise 1 - Sum of Arguments  ->  https://drive.google.com/file/d/1VBOtl3oMwho3Qp1BRawwutFOD8v_NIIl/preview
+    013. 13 - Exercise 2 - Area of Circle  ->  https://drive.google.com/file/d/1UJ-zpF2MBHo_VY6z7V3t2XNOe4W66MY6/preview
+    014. 14 - Exercise 3 - Error Handling  ->  https://drive.google.com/file/d/1V-boDWwyt8TzRDolRwQVtsrKOYsgCYtP/preview
+
+8. Getting Started - OOP in JavaScript  [s8.html]
+    001. What is OOP  ->  https://drive.google.com/file/d/1TNnaXnUGJgA_WKrjq-uB9pmXFkAWlDVs/preview
+    002. Four Pillars of OOP  ->  https://drive.google.com/file/d/1TU3y-FtZk4ubgv1ZcK7hObN-Qm9Olp2W/preview
+    003. Setting Up the Development Environment  ->  https://drive.google.com/file/d/1TC4w-aREf2wzu5sbHPLB7y0kihuniGPF/preview
+    004. Course Structure  ->  https://drive.google.com/file/d/1T_gtt4Z2l1OlfyuyDLZzCO2VXeeGbBaf/preview
+
+9. Objects  [s9.html]
+    001. 1 - Introduction  ->  https://drive.google.com/file/d/1PaRi_WGUAA9bx-KXMc7K-t33en5awQQl/preview
+    002. 2 - Object Literals  ->  https://drive.google.com/file/d/1Om0bwjF3cVNJ0pGi8G7JrXMpdJq93wzh/preview
+    003. 3 - Factories  ->  https://drive.google.com/file/d/1Pc78sh_eubquKCCTG-BN4hz6GDhCnvCM/preview
+    004. 4 - Constructors  ->  https://drive.google.com/file/d/1PZ7N62xkIQDCG56IDDYq-jn90qfqtsio/preview
+    005. 5 - Constructor Property  ->  https://drive.google.com/file/d/1P8LVm3oe7rP1tgtX8Cj7tC7iDHPB8ZrA/preview
+    006. 6 - Functions are Objects  ->  https://drive.google.com/file/d/1P26RsaHO3XP1PuWJbKMK7-r5fJi5-xv1/preview
+    007. 7 - Value vs Reference Types  ->  https://drive.google.com/file/d/1PTjyaSxJo2b_UDEPR1MXdXMSqsWM4fGD/preview
+    008. 8 - Adding or Removing Properties  ->  https://drive.google.com/file/d/1PDqimVDwhwiw2wnjA8XakKd9C1zjeuvy/preview
+    009. 9 - Enumerating Properties  ->  https://drive.google.com/file/d/1OJYO0umG7e6FaBtMa41qxvhOnspy411v/preview
+    010. 10 - Abstraction  ->  https://drive.google.com/file/d/1PBVvc_DXkSgg1pRXs-bL2xQG5U8GuEnD/preview
+    011. 11 - Private Properties and Methods  ->  https://drive.google.com/file/d/1PuQLOO5DrQl9U4d1P2ndLHyt7kyK4nH1/preview
+    012. Getters and Setters  ->  https://drive.google.com/file/d/1P5tJAjMHdhY7Q9TfFqo5Y1CjJslGlUHH/preview
+    013. 14 - Exercise - Stop Watch  ->  https://drive.google.com/file/d/1OvcKzqSVHLbxNQZe467jczr-uuq4DXxo/preview
+    014. 15 - Solution - Stopwatch  ->  https://drive.google.com/file/d/1P0jok2ItcaMSvpqd5kvpTP_EpVWVL9Ee/preview
+
+10. Prototypes  [s10.html]
+    001. 1 - Inheritance  ->  https://drive.google.com/file/d/1Nj9zfSGLujVZ81oEWsEbiqus-DiITIpC/preview
+    002. 2 - Prototypes and Prototypical Inheritance  ->  https://drive.google.com/file/d/1MjuDU3LKMiiRlQgrl3jbXC5_Cp0M3Krd/preview
+    003. 3 - Multi-level Inheritance  ->  https://drive.google.com/file/d/1NfrfkXWFCgw2alEa-BUgPo3dm0jVvdd5/preview
+    004. 4 - Property Descriptors  ->  https://drive.google.com/file/d/1Nlc_unRICXZFZ59SvATwWg9QyOIgO3n6/preview
+    005. 5 - Constructor Prototypes  ->  https://drive.google.com/file/d/1MrPkx6pT1Qs0TjfsNjgipBIhbHZ4VbHk/preview
+    006. 6 - Prototype vs. Instance Members  ->  https://drive.google.com/file/d/1NmJnSh2kUky74DQPvUxknI1-__08v3wW/preview
+    007. 7 - Iterating Instance and Prototype Members  ->  https://drive.google.com/file/d/1MmAiHjZoQdODn2V_ogIaLk9USQtEumZV/preview
+    008. 8 - Avoid Extending the Built-in Objects  ->  https://drive.google.com/file/d/1O09bBjBNfr90GXGA21yayt3ZAy5dYe65/preview
+    009. 10 - Exercise  ->  https://drive.google.com/file/d/1NST-mLN-1F_ig8hVew5aRpnM-t4Q0_Lr/preview
+    010. 11 - Solution  ->  https://drive.google.com/file/d/1O3xqeghIQZZcI40z_XC1_uyNM7asZI2n/preview
+
+11. Prototypical Inheritance  [s11.html]
+    001. 1 - Creating Your Own Prototypical Inheritance  ->  https://drive.google.com/file/d/1RbzadBgzU6WPEJ_W0Mf3y7irQGzA8Asx/preview
+    002. 2 - Resetting the Constructor  ->  https://drive.google.com/file/d/1R4eaby8b230cyF2eP6DWnm9NqTXAM-6r/preview
+    003. 3 - Calling the Super Constructor  ->  https://drive.google.com/file/d/1RCBehnU3IfDAJg0eacPMw52_hU-FTh_G/preview
+    004. 4 - Intermediate Function Inheritance  ->  https://drive.google.com/file/d/1RuLbsTt5JXyIpGDJZbCEr7Zaa9JulpfK/preview
+    005. 5 - Method Overriding  ->  https://drive.google.com/file/d/1RKdWiXzclFbPkqMpzs3OWPJJC-FYth_Z/preview
+    006. 6 - Polymorphism  ->  https://drive.google.com/file/d/1RV_bE4a2QT_jMU5SaVn8kFxvbLpHkBQ0/preview
+    007. 7 - When to Use Inheritance  ->  https://drive.google.com/file/d/1RFwhY6bvZN1faEYg-uXaGaBrXJ7qFZhS/preview
+    008. 8 - Mixins  ->  https://drive.google.com/file/d/1RF7xDpMHXy3M7DKrpBADOLiQJ8_wz1EE/preview
+    009. 10 - Exercise Prototypical Inheritence  ->  https://drive.google.com/file/d/1PxMu5FuM5Im7fbFtYpn_wUTkOpJvmI3i/preview
+    010. 11 - Solution Prototypical Inheritance  ->  https://drive.google.com/file/d/1RqRrDxRxRJXbO_Oo3bWjs13uZ7OD7WOK/preview
+    011. 12 - Exercise - Polymorphism  ->  https://drive.google.com/file/d/1QyX-PiYwPAsgcb-B05Nz7pTuvhbJ1WYU/preview
+    012. 13 - Solution - Polymorphism  ->  https://drive.google.com/file/d/1RTGXeJC_x3P2d93YZs7-d11BrEEKmaTG/preview
+
+12. ES6 Classes  [s12.html]
+    001. 1 - ES6 Classes  ->  https://drive.google.com/file/d/1LRtLEbJm6cLk33Uq1I5Qzmm6PbXF6TtO/preview
+    002. 2 - Hoisting  ->  https://drive.google.com/file/d/1Koi4AwAnm38rb0SZ9H_vVuCavu86px1T/preview
+    003. 3 - Static Methods  ->  https://drive.google.com/file/d/1L_1QKTCZVmJ35K_DhCJ6KiNuDgUhK7lG/preview
+    004. 4 - The This Keyword  ->  https://drive.google.com/file/d/1LTPJWkjgEUIDAb1JiWUpw-gYsAxZlGpn/preview
+    005. 5 - Private Members Using Symbols  ->  https://drive.google.com/file/d/1MEMGh3lviu1gjwlLdfuv834JBTyVLTGY/preview
+    006. Private Members Using WeakMaps  ->  https://drive.google.com/file/d/1KuOVmt3DxsGW0GStpMxsKfY2d6sJCfoS/preview
+    007. 7 - Getters and Setters  ->  https://drive.google.com/file/d/1Lb6C15hC4gj8ICQ0KvyJPJkSXy8l63yk/preview
+    008. Inheritance  ->  https://drive.google.com/file/d/1LMxJrqNID8KoFUSZtCeRoUkL09e1TsLr/preview
+    009. 9 - Method Riding  ->  https://drive.google.com/file/d/1M2pVQS4y06BloRqqOG5ZYhDkWen7lkcA/preview
+    010. 11 - Exercise  ->  https://drive.google.com/file/d/1LZD3xZKZScaC48OlzfqzSR7TAZ0OxCLP/preview
+    011. 12 - Solution  ->  https://drive.google.com/file/d/1Kw9D2NwaEK0BcsGNoLjQNvpRqw4r5QKH/preview
+
+13. ES6 Modules  [s13.html]
+    001. 1 - Modules  ->  https://drive.google.com/file/d/1RzT29JdXrrpBKTMYVZvKeGL8afdN9NeN/preview
+    002. 2 - CommonJS Modules  ->  https://drive.google.com/file/d/1S2bWIOT8ijRo1NlN30v7L5Me4NncqH7f/preview
+    003. 3 - ES6 Modules  ->  https://drive.google.com/file/d/1T6oLo7T4TXiZZPJV9wmn24tvy80SKjaR/preview
+    004. 4 - ES6 Tooling  ->  https://drive.google.com/file/d/1SWzu_0MgDAkKMAC8oLZaSx_WI1tiB70d/preview
+    005. 5 - Babel  ->  https://drive.google.com/file/d/1S37c7euEC5KkkRzHmY0mekYoKgmt7tnJ/preview
+    006. 6 - Webpack  ->  https://drive.google.com/file/d/1SklYqkaI9-YWVj1EarrpNvHeFn3MhTR_/preview

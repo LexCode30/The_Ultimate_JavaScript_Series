@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>6. Arrays - The Ultimate JavaScript Series</title>
+<meta name="description" content="Section 6 of 13 of The Ultimate JavaScript Series: Arrays.">
+<meta name="color-scheme" content="dark light">
+<meta name="generator" content="course-site-generator 7.0">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Ultimate JavaScript Series">
+<meta property="og:title" content="6. Arrays - The Ultimate JavaScript Series">
+<meta property="og:description" content="Section 6 of 13 of The Ultimate JavaScript Series: Arrays.">
+<meta property="og:url" content="https://LexCode30.github.io/The_Ultimate_JavaScript_Series/s6.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://LexCode30.github.io/The_Ultimate_JavaScript_Series/s6.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-course="The_Ultimate_JavaScript_Series" data-course-name="The Ultimate JavaScript Series" data-page="s6.html" data-page-kind="section" data-total-videos="156" data-chapter="6" data-prev-page="s5.html" data-next-page="s7.html" data-prev-video="s5.html#v-1ZT_yturvfKrVu0jcRXF2YXRWHR897uvi" data-next-video="s7.html#v-1VA6ca9nbrRM9rSb1iaAAa-SBh4WsdY5f">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="bg-gradient" aria-hidden="true"></div>
+<div class="floating-shapes" aria-hidden="true"><span class="shape shape-1"></span><span class="shape shape-2"></span><span class="shape shape-3"></span></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-icon" aria-hidden="true"><i class="fas fa-graduation-cap"></i></span>
+      <span class="brand-text">
+        <span class="brand-title">The Ultimate JavaScript Series</span>
+        <span class="brand-sub">13 sections &middot; 156 videos</span>
+      </span>
+    </a>
+    <nav class="chapter-nav" aria-label="Course sections">
+      <button type="button" class="nav-scroll-btn" id="leftScroll" aria-label="Scroll sections left"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+      <ul class="nav-carousel" id="navCarousel">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <span class="nav-icon"><i class="fas fa-compass" aria-hidden="true"></i></span>
+            <span class="nav-content"><span class="nav-title">Overview</span><span class="nav-subtitle">Start here</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s1.html">
+            <span class="nav-icon"><span class="nav-number">1</span></span>
+            <span class="nav-content"><span class="nav-title">Getting Started</span><span class="nav-subtitle">6 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s2.html">
+            <span class="nav-icon"><span class="nav-number">2</span></span>
+            <span class="nav-content"><span class="nav-title">Basics</span><span class="nav-subtitle">8 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s3.html">
+            <span class="nav-icon"><span class="nav-number">3</span></span>
+            <span class="nav-content"><span class="nav-title">Operators</span><span class="nav-subtitle">11 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s4.html">
+            <span class="nav-icon"><span class="nav-number">4</span></span>
+            <span class="nav-content"><span class="nav-title">Control Flow</span><span class="nav-subtitle">17 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s5.html">
+            <span class="nav-icon"><span class="nav-number">5</span></span>
+            <span class="nav-content"><span class="nav-title">Objects</span><span class="nav-subtitle">20 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="s6.html" aria-current="page">
+            <span class="nav-icon"><span class="nav-number">6</span></span>
+            <span class="nav-content"><span class="nav-title">Arrays</span><span class="nav-subtitle">23 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s7.html">
+            <span class="nav-icon"><span class="nav-number">7</span></span>
+            <span class="nav-content"><span class="nav-title">Functions</span><span class="nav-subtitle">14 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s8.html">
+            <span class="nav-icon"><span class="nav-number">8</span></span>
+            <span class="nav-content"><span class="nav-title">Getting Started - OOP in JavaScript</span><span class="nav-subtitle">4 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s9.html">
+            <span class="nav-icon"><span class="nav-number">9</span></span>
+            <span class="nav-content"><span class="nav-title">Objects</span><span class="nav-subtitle">14 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s10.html">
+            <span class="nav-icon"><span class="nav-number">10</span></span>
+            <span class="nav-content"><span class="nav-title">Prototypes</span><span class="nav-subtitle">10 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s11.html">
+            <span class="nav-icon"><span class="nav-number">11</span></span>
+            <span class="nav-content"><span class="nav-title">Prototypical Inheritance</span><span class="nav-subtitle">12 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s12.html">
+            <span class="nav-icon"><span class="nav-number">12</span></span>
+            <span class="nav-content"><span class="nav-title">ES6 Classes</span><span class="nav-subtitle">11 videos</span></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="s13.html">
+            <span class="nav-icon"><span class="nav-number">13</span></span>
+            <span class="nav-content"><span class="nav-title">ES6 Modules</span><span class="nav-subtitle">6 videos</span></span>
+          </a>
+        </li>
+      </ul>
+      <button type="button" class="nav-scroll-btn" id="rightScroll" aria-label="Scroll sections right"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="icon-btn" id="themeToggle" aria-label="Switch between dark and light theme" title="Switch theme"><i class="fas fa-moon" aria-hidden="true"></i></button>
+    </div>
+  </div>
+</header>
+<a class="floating-nav left-nav" href="s5.html" aria-label="Previous section" data-nav><i class="fas fa-chevron-left" aria-hidden="true"></i></a><a class="floating-nav right-nav" href="s7.html" aria-label="Next section" data-nav><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+<main class="main-container" id="main">
+<div class="section-head glassmorphism">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="index.html"><i class="fas fa-compass" aria-hidden="true"></i> Overview</a>
+    <span aria-hidden="true">/</span>
+    <span class="current">Section 6</span>
+  </nav>
+  <h1 class="page-title">Arrays</h1>
+  <p class="page-meta">Section 6 of 13 &middot; 23 videos</p>
+  <div class="hero-progress">
+    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Section progress" id="pageProgress">
+      <div class="progress-fill" id="pageFill" style="width:0%"></div>
+    </div>
+    <p class="progress-text" id="pageText">0 of 23 videos complete</p>
+  </div>
+</div>
+
+<article class="video-section glassmorphism" id="v-1eSSesFN5S4EGovAVJzuYC2H1axa1SC7R"
+  data-video-id="1eSSesFN5S4EGovAVJzuYC2H1axa1SC7R" data-position="0"
+  data-legacy-page="s6.html" data-legacy-id="section63">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">1</span>
+      <div class="video-meta">
+        <h2 class="video-title">1 - Introduction</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1eSSesFN5S4EGovAVJzuYC2H1axa1SC7R/preview" title="1 - Introduction"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1eSSesFN5S4EGovAVJzuYC2H1axa1SC7R/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 1 - Introduction"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1c_VdEnBkxyO0xqG8kHvcojp62FFpAqh4"
+  data-video-id="1c_VdEnBkxyO0xqG8kHvcojp62FFpAqh4" data-position="1"
+  data-legacy-page="s6.html" data-legacy-id="section64">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">2</span>
+      <div class="video-meta">
+        <h2 class="video-title">2 - Adding Elements</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1c_VdEnBkxyO0xqG8kHvcojp62FFpAqh4/preview" title="2 - Adding Elements"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1c_VdEnBkxyO0xqG8kHvcojp62FFpAqh4/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 2 - Adding Elements"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1dmnN0O89pPzbOdCZgq60-mjx0bsBDdmy"
+  data-video-id="1dmnN0O89pPzbOdCZgq60-mjx0bsBDdmy" data-position="2"
+  data-legacy-page="s6.html" data-legacy-id="section65">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">3</span>
+      <div class="video-meta">
+        <h2 class="video-title">3 - Finding Elements Primitives</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1dmnN0O89pPzbOdCZgq60-mjx0bsBDdmy/preview" title="3 - Finding Elements Primitives"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1dmnN0O89pPzbOdCZgq60-mjx0bsBDdmy/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 3 - Finding Elements Primitives"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1egTafP0saUsc6B_WngcPIEB28WV9QAjI"
+  data-video-id="1egTafP0saUsc6B_WngcPIEB28WV9QAjI" data-position="3"
+  data-legacy-page="s6.html" data-legacy-id="section66">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">4</span>
+      <div class="video-meta">
+        <h2 class="video-title">4 - Finding Elements Reference Types</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1egTafP0saUsc6B_WngcPIEB28WV9QAjI/preview" title="4 - Finding Elements Reference Types"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1egTafP0saUsc6B_WngcPIEB28WV9QAjI/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 4 - Finding Elements Reference Types"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1dL72Twg0wwbsu1iNFP19jSjmj1nTT08q"
+  data-video-id="1dL72Twg0wwbsu1iNFP19jSjmj1nTT08q" data-position="4"
+  data-legacy-page="s6.html" data-legacy-id="section67">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">5</span>
+      <div class="video-meta">
+        <h2 class="video-title">5 - Arrow Functions</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1dL72Twg0wwbsu1iNFP19jSjmj1nTT08q/preview" title="5 - Arrow Functions"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1dL72Twg0wwbsu1iNFP19jSjmj1nTT08q/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 5 - Arrow Functions"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1djDT-qFCVB48G3_VA2i-tPAsmJmVd7SB"
+  data-video-id="1djDT-qFCVB48G3_VA2i-tPAsmJmVd7SB" data-position="5"
+  data-legacy-page="s6.html" data-legacy-id="section68">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">6</span>
+      <div class="video-meta">
+        <h2 class="video-title">6 - Removing Elements</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1djDT-qFCVB48G3_VA2i-tPAsmJmVd7SB/preview" title="6 - Removing Elements"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1djDT-qFCVB48G3_VA2i-tPAsmJmVd7SB/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 6 - Removing Elements"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1ek777wxP2P_UgN6C4r3692MhL0BOYW-d"
+  data-video-id="1ek777wxP2P_UgN6C4r3692MhL0BOYW-d" data-position="6"
+  data-legacy-page="s6.html" data-legacy-id="section69">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">7</span>
+      <div class="video-meta">
+        <h2 class="video-title">7 - Emptying an Array</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1ek777wxP2P_UgN6C4r3692MhL0BOYW-d/preview" title="7 - Emptying an Array"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1ek777wxP2P_UgN6C4r3692MhL0BOYW-d/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 7 - Emptying an Array"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1dl6M6WGFlE0RZM-MJjshp8PKeKnrsnnn"
+  data-video-id="1dl6M6WGFlE0RZM-MJjshp8PKeKnrsnnn" data-position="7"
+  data-legacy-page="s6.html" data-legacy-id="section70">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">8</span>
+      <div class="video-meta">
+        <h2 class="video-title">8 - Combining and Slicing Arrays</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1dl6M6WGFlE0RZM-MJjshp8PKeKnrsnnn/preview" title="8 - Combining and Slicing Arrays"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1dl6M6WGFlE0RZM-MJjshp8PKeKnrsnnn/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 8 - Combining and Slicing Arrays"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1cfNGSZDd8hQq1Yo3W6fxE4lYMdyVqu3W"
+  data-video-id="1cfNGSZDd8hQq1Yo3W6fxE4lYMdyVqu3W" data-position="8"
+  data-legacy-page="s6.html" data-legacy-id="section71">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">9</span>
+      <div class="video-meta">
+        <h2 class="video-title">9 - The Spread Operator</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1cfNGSZDd8hQq1Yo3W6fxE4lYMdyVqu3W/preview" title="9 - The Spread Operator"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1cfNGSZDd8hQq1Yo3W6fxE4lYMdyVqu3W/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 9 - The Spread Operator"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1c40CVZyF3zceZntHBLlTotWMnGQJOKgG"
+  data-video-id="1c40CVZyF3zceZntHBLlTotWMnGQJOKgG" data-position="9"
+  data-legacy-page="s6.html" data-legacy-id="section72">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">10</span>
+      <div class="video-meta">
+        <h2 class="video-title">10 - Iterating an Array</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1c40CVZyF3zceZntHBLlTotWMnGQJOKgG/preview" title="10 - Iterating an Array"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1c40CVZyF3zceZntHBLlTotWMnGQJOKgG/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 10 - Iterating an Array"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1dTTOIJ5OijbKQ-8eWujAetIxtZ3h6C9R"
+  data-video-id="1dTTOIJ5OijbKQ-8eWujAetIxtZ3h6C9R" data-position="10"
+  data-legacy-page="s6.html" data-legacy-id="section73">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">11</span>
+      <div class="video-meta">
+        <h2 class="video-title">11 - Joining Arrays</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1dTTOIJ5OijbKQ-8eWujAetIxtZ3h6C9R/preview" title="11 - Joining Arrays"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1dTTOIJ5OijbKQ-8eWujAetIxtZ3h6C9R/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 11 - Joining Arrays"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1clrRCDijFCWk5G_YzX9zg0UBuLyMkT3r"
+  data-video-id="1clrRCDijFCWk5G_YzX9zg0UBuLyMkT3r" data-position="11"
+  data-legacy-page="s6.html" data-legacy-id="section74">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">12</span>
+      <div class="video-meta">
+        <h2 class="video-title">12 - Sorting Arrays</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1clrRCDijFCWk5G_YzX9zg0UBuLyMkT3r/preview" title="12 - Sorting Arrays"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1clrRCDijFCWk5G_YzX9zg0UBuLyMkT3r/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 12 - Sorting Arrays"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1fFK_eYtnc5hS_9OhGL3JpV2GX-Sdky0h"
+  data-video-id="1fFK_eYtnc5hS_9OhGL3JpV2GX-Sdky0h" data-position="12"
+  data-legacy-page="s6.html" data-legacy-id="section75">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">13</span>
+      <div class="video-meta">
+        <h2 class="video-title">13 - Testing the Elements of an Array</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1fFK_eYtnc5hS_9OhGL3JpV2GX-Sdky0h/preview" title="13 - Testing the Elements of an Array"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1fFK_eYtnc5hS_9OhGL3JpV2GX-Sdky0h/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 13 - Testing the Elements of an Array"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1f0HT6YfSd0IPkDu24pinvyRc9UJm4-zV"
+  data-video-id="1f0HT6YfSd0IPkDu24pinvyRc9UJm4-zV" data-position="13"
+  data-legacy-page="s6.html" data-legacy-id="section76">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">14</span>
+      <div class="video-meta">
+        <h2 class="video-title">14 - Filtering an Array</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1f0HT6YfSd0IPkDu24pinvyRc9UJm4-zV/preview" title="14 - Filtering an Array"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1f0HT6YfSd0IPkDu24pinvyRc9UJm4-zV/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 14 - Filtering an Array"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1fHXQUffEsPLzlCtJHL-n6FY6zXjCyqSI"
+  data-video-id="1fHXQUffEsPLzlCtJHL-n6FY6zXjCyqSI" data-position="14"
+  data-legacy-page="s6.html" data-legacy-id="section77">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">15</span>
+      <div class="video-meta">
+        <h2 class="video-title">15 - Mapping an Array</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1fHXQUffEsPLzlCtJHL-n6FY6zXjCyqSI/preview" title="15 - Mapping an Array"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1fHXQUffEsPLzlCtJHL-n6FY6zXjCyqSI/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 15 - Mapping an Array"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1dSAyE9MTzttmR1xMc-LPXTdTC1KFInBD"
+  data-video-id="1dSAyE9MTzttmR1xMc-LPXTdTC1KFInBD" data-position="15"
+  data-legacy-page="s6.html" data-legacy-id="section78">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">16</span>
+      <div class="video-meta">
+        <h2 class="video-title">16 - Reducing an Array</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1dSAyE9MTzttmR1xMc-LPXTdTC1KFInBD/preview" title="16 - Reducing an Array"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1dSAyE9MTzttmR1xMc-LPXTdTC1KFInBD/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 16 - Reducing an Array"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1dX3AnU59PA6UFfXjtkDyNJarDvrrr7Kx"
+  data-video-id="1dX3AnU59PA6UFfXjtkDyNJarDvrrr7Kx" data-position="16"
+  data-legacy-page="s6.html" data-legacy-id="section79">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">17</span>
+      <div class="video-meta">
+        <h2 class="video-title">17 - Exercise 1 - Array from Range</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1dX3AnU59PA6UFfXjtkDyNJarDvrrr7Kx/preview" title="17 - Exercise 1 - Array from Range"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1dX3AnU59PA6UFfXjtkDyNJarDvrrr7Kx/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 17 - Exercise 1 - Array from Range"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1e5hgxrH4I6RzFDuS_3n9lNQytt6FrHBw"
+  data-video-id="1e5hgxrH4I6RzFDuS_3n9lNQytt6FrHBw" data-position="17"
+  data-legacy-page="s6.html" data-legacy-id="section80">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">18</span>
+      <div class="video-meta">
+        <h2 class="video-title">18 - Exercise 2 - Includes</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1e5hgxrH4I6RzFDuS_3n9lNQytt6FrHBw/preview" title="18 - Exercise 2 - Includes"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1e5hgxrH4I6RzFDuS_3n9lNQytt6FrHBw/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 18 - Exercise 2 - Includes"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1cfe2xPXSZWSyXOJcUOXyfSxoZz8FZwEm"
+  data-video-id="1cfe2xPXSZWSyXOJcUOXyfSxoZz8FZwEm" data-position="18"
+  data-legacy-page="s6.html" data-legacy-id="section81">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">19</span>
+      <div class="video-meta">
+        <h2 class="video-title">19 - Exercise 3 - Except</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1cfe2xPXSZWSyXOJcUOXyfSxoZz8FZwEm/preview" title="19 - Exercise 3 - Except"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1cfe2xPXSZWSyXOJcUOXyfSxoZz8FZwEm/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 19 - Exercise 3 - Except"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1crQqA1u5-cLNy_inIxmfvRGp30wIpGdc"
+  data-video-id="1crQqA1u5-cLNy_inIxmfvRGp30wIpGdc" data-position="19"
+  data-legacy-page="s6.html" data-legacy-id="section82">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">20</span>
+      <div class="video-meta">
+        <h2 class="video-title">20 - Exercise 4 - Moving an Element</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1crQqA1u5-cLNy_inIxmfvRGp30wIpGdc/preview" title="20 - Exercise 4 - Moving an Element"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1crQqA1u5-cLNy_inIxmfvRGp30wIpGdc/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 20 - Exercise 4 - Moving an Element"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1cl2BL2BgEX2sgdiOTyGBpoKjffhs9NJ9"
+  data-video-id="1cl2BL2BgEX2sgdiOTyGBpoKjffhs9NJ9" data-position="20"
+  data-legacy-page="s6.html" data-legacy-id="section83">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">21</span>
+      <div class="video-meta">
+        <h2 class="video-title">21 - Exercise 5 - Count Occurrences</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1cl2BL2BgEX2sgdiOTyGBpoKjffhs9NJ9/preview" title="21 - Exercise 5 - Count Occurrences"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1cl2BL2BgEX2sgdiOTyGBpoKjffhs9NJ9/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 21 - Exercise 5 - Count Occurrences"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1cZGZkSnpzl9l6aLk1Nc1KqSk6Dfu9qCx"
+  data-video-id="1cZGZkSnpzl9l6aLk1Nc1KqSk6Dfu9qCx" data-position="21"
+  data-legacy-page="s6.html" data-legacy-id="section84">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">22</span>
+      <div class="video-meta">
+        <h2 class="video-title">22 - Exercise 6 - Get Max</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1cZGZkSnpzl9l6aLk1Nc1KqSk6Dfu9qCx/preview" title="22 - Exercise 6 - Get Max"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1cZGZkSnpzl9l6aLk1Nc1KqSk6Dfu9qCx/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 22 - Exercise 6 - Get Max"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+<article class="video-section glassmorphism" id="v-1dfoz3wbNclo0-CRCK_szO1med84zR12J"
+  data-video-id="1dfoz3wbNclo0-CRCK_szO1med84zR12J" data-position="22"
+  data-legacy-page="s6.html" data-legacy-id="section85">
+  <header class="section-header">
+    <div class="video-info">
+      <span class="video-badge">23</span>
+      <div class="video-meta">
+        <h2 class="video-title">23 - Exercise 7 - Movies</h2>
+        <p class="video-status"><span class="status-dot" aria-hidden="true"></span><span class="status-text">Ready to watch</span></p>
+      </div>
+    </div>
+    <button type="button" class="action-btn complete-btn" aria-pressed="false">
+      <i class="fas fa-circle-check" aria-hidden="true"></i><span class="complete-label">Mark complete</span>
+    </button>
+  </header>
+  <div class="video-container">
+    <div class="video-frame">
+      <iframe class="video-iframe" src="https://drive.google.com/file/d/1dfoz3wbNclo0-CRCK_szO1med84zR12J/preview" title="23 - Exercise 7 - Movies"
+        allow="autoplay; fullscreen; encrypted-media" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="section-actions">
+    <a class="action-btn nav-btn" data-video-prev href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i><span>Previous video</span></a>
+    <a class="video-open" href="https://drive.google.com/file/d/1dfoz3wbNclo0-CRCK_szO1med84zR12J/view" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square" aria-hidden="true"></i><span>Open in Drive</span></a>
+    <a class="action-btn nav-btn" data-video-next href="#"><span>Next video</span><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <details class="notes-container">
+    <summary class="notes-summary"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Your notes</span><span class="notes-flag" hidden>&bull;</span></summary>
+    <div class="notes-body">
+      <div class="notes-tools">
+        <button type="button" class="tool-btn" data-wrap="**" aria-label="Bold selection" title="Bold"><i class="fas fa-bold" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="*" aria-label="Italic selection" title="Italic"><i class="fas fa-italic" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn" data-wrap="`" aria-label="Code selection" title="Code"><i class="fas fa-code" aria-hidden="true"></i></button>
+        <button type="button" class="tool-btn tool-danger" data-clear aria-label="Clear notes" title="Clear notes"><i class="fas fa-trash" aria-hidden="true"></i></button>
+      </div>
+      <textarea class="notes-input" maxlength="5000" rows="4"
+        placeholder="Write your notes for this video" aria-label="Notes for 23 - Exercise 7 - Movies"></textarea>
+      <p class="notes-counter"><span class="char-count">0</span> / 5000</p>
+    </div>
+  </details>
+</article>
+
+<nav class="pager" aria-label="Section navigation">
+  <a class="pager-link" href="s5.html" data-nav>
+    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+    <span><small>Previous section</small>Objects</span>
+  </a>
+  <a class="pager-link pager-next" href="s7.html" data-nav>
+    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+    <span><small>Next section</small>Functions</span>
+  </a>
+</nav>
+
+</main>
+
+<footer class="site-footer">
+  <p><a href="index.html">The Ultimate JavaScript Series</a> &middot; <a href="https://LexCode30.github.io/all/">All courses</a></p>
+  <p class="footer-note">Progress and notes are stored in this browser only.</p>
+</footer>
+
+<div class="fab-container">
+  <div class="fab-menu" id="fabMenu">
+    <div class="fab-options">
+      <button type="button" class="fab option-fab" id="exportButton" aria-label="Export progress" title="Export progress"><i class="fas fa-download" aria-hidden="true"></i></button>
+      <button type="button" class="fab option-fab" id="importDataButton" aria-label="Import progress" title="Import progress"><i class="fas fa-upload" aria-hidden="true"></i></button>
+      <a class="fab option-fab" href="https://LexCode30.github.io/all/" aria-label="All courses" title="All courses"><i class="fas fa-house" aria-hidden="true"></i></a>
+      <a class="fab option-fab" href="index.html" aria-label="Course overview" title="Course overview"><i class="fas fa-list" aria-hidden="true"></i></a>
+    </div>
+    <button type="button" class="fab main-fab" id="mainFab" aria-expanded="false" aria-label="More actions"><i class="fas fa-plus" aria-hidden="true"></i></button>
+  </div>
+</div>
+
+<input type="file" id="importInput" accept=".json,application/json" hidden>
+<div class="toast-stack" id="toastStack" role="status" aria-live="polite"></div>
+<div class="loading-overlay" id="loadingOverlay" aria-hidden="true"><div class="loading-spinner"><span class="spinner"></span><p>Loading&hellip;</p></div></div>
+<script src="script.js"></script>
+</body>
+</html>
